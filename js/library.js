@@ -17,28 +17,33 @@ export function imageWithPlaceholder({ src, alt, kind, pageId = '' }) {
   return wrap;
 }
 
+function progressLabel(progress) {
+  if (progress.completed) return 'COMPLETADA';
+  return progress.initiated ? 'EN CURSO' : 'NO INICIADA';
+}
+
 export function renderLibrary(app, catalog, onOpen) {
-  app.innerHTML = '<section class="library" aria-labelledby="library-title"><h2 id="library-title">Biblioteca de aventuras</h2><div class="book-grid"></div></section>';
+  app.innerHTML = '<section class="library" aria-label="Biblioteca de aventuras"><div class="book-grid"></div></section>';
   const grid = app.querySelector('.book-grid');
   catalog.sort((a,b) => (a.order || 0) - (b.order || 0)).forEach(item => {
     const progress = loadProgress(item.id, '');
     const found = progress.discoveredEndings.length;
-    const status = progress.completed ? 'Completada' : progress.initiated ? 'En curso' : 'No iniciada';
-    const article = document.createElement('article');
-    article.className = 'book-card';
-    article.style.setProperty('--accent', item.accentColor || '#b7892b');
-    article.innerHTML = `<div class="book-top">AVENTURA RAMIFICADA</div><h3>${item.title}</h3><div class="book-rule"></div><p class="book-author">${item.author}</p>`;
-    article.append(imageWithPlaceholder({ src: item.cover, alt: `Portada de ${item.title}`, kind: 'cover' }));
     const total = item.totalEndings || '?';
-    const info = document.createElement('div');
-    info.className = 'book-info';
-    info.innerHTML = `<p>${item.summary}</p><p><strong>Género:</strong> ${item.genre}</p><p><strong>Estado:</strong> ${status}</p><p><strong>${found} / ${total}</strong> finales</p>${progress.completed ? '<span class="stamp">TODOS LOS FINALES</span>' : ''}`;
-    const button = document.createElement('button');
-    button.className = 'primary-action';
-    button.textContent = progress.initiated ? 'Continuar lectura' : 'Comenzar aventura';
-    button.addEventListener('click', () => onOpen(item));
-    info.append(button);
-    article.append(info);
+    const article = document.createElement('article');
+    article.className = 'book-tile';
+    article.style.setProperty('--accent', item.accentColor || '#b7892b');
+
+    const open = document.createElement('button');
+    open.className = 'book-cover-button';
+    open.setAttribute('aria-label', `Abrir presentación de ${item.title}`);
+    open.append(imageWithPlaceholder({ src: item.cover, alt: `Portada de ${item.title}`, kind: 'cover' }));
+    open.addEventListener('click', () => onOpen(item));
+
+    const meta = document.createElement('div');
+    meta.className = 'book-meta';
+    meta.innerHTML = `<h2>${item.title}</h2><p>${progressLabel(progress)} · ${found} / ${total} FINALES</p>${progress.completed ? '<span class="stamp">COMPLETADA</span>' : ''}`;
+
+    article.append(open, meta);
     grid.append(article);
   });
 }
