@@ -1,0 +1,16 @@
+{
+  "adventures": [
+    {
+      "id": "demo",
+      "title": "La casa de las trece puertas",
+      "author": "Autor de demostración",
+      "summary": "Una aventura breve de misterio fantástico entre pasillos imposibles y relojes detenidos.",
+      "path": "adventures/demo/adventure.json",
+      "cover": "adventures/demo/images/cover.jpg",
+      "genre": "Misterio fantástico",
+      "publicationStatus": "published",
+      "order": 1,
+      "accentColor": "#b7892b"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Adventure JSON",
+  "type": "object",
+  "required": ["id", "title", "author", "summary", "cover", "version", "genre", "startPage", "totalEndings", "pages"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "author": { "type": "string" },
+    "summary": { "type": "string" },
+    "cover": { "type": "string" },
+    "version": { "type": "string" },
+    "genre": { "type": "string" },
+    "startPage": { "type": "string" },
+    "totalEndings": { "type": "integer", "minimum": 1 },
+    "pages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "text", "imageAlt", "choices"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "text": { "type": "string" },
+          "image": { "type": "string" },
+          "imageAlt": { "type": "string" },
+          "choices": { "type": "array", "items": { "type": "object", "required": ["text", "target"], "properties": { "text": { "type": "string" }, "target": { "type": "string" } } } },
+          "isEnding": { "type": "boolean" },
+          "endingId": { "type": "string" },
+          "endingTitle": { "type": "string" }
+        }
+      }
+    }
+  }
+}

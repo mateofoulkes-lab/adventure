@@ -1,0 +1,32 @@
+{
+  "id": "mi-aventura",
+  "title": "Título de la aventura",
+  "author": "Nombre del autor",
+  "summary": "Resumen breve.",
+  "cover": "images/cover.jpg",
+  "version": "1.0.0",
+  "genre": "Misterio fantástico",
+  "startPage": "p001",
+  "totalEndings": 1,
+  "pages": {
+    "p001": {
+      "id": "p001",
+      "title": "Inicio",
+      "text": "Texto de la página.",
+      "image": "images/page-001.jpg",
+      "imageAlt": "Descripción accesible de la ilustración.",
+      "choices": [{ "text": "Continuar", "target": "p002" }]
+    },
+    "p002": {
+      "id": "p002",
+      "title": "Final",
+      "text": "Texto del final.",
+      "image": "images/page-002.jpg",
+      "imageAlt": "Descripción accesible del final.",
+      "isEnding": true,
+      "endingId": "final-uno",
+      "endingTitle": "El primer final",
+      "choices": []
+    }
+  }
+}
