@@ -50,7 +50,7 @@ export function renderReader(app, adventure, basePath, onBackLibrary) {
     app.innerHTML = '';
     const section = document.createElement('section');
     section.className = 'reader-page';
-    section.innerHTML = `${headerHtml(adventure, progress)}<article class="reading-column">${progress.history.length ? '<button class="back-link" id="back" aria-label="Volver a la decisión anterior">← Atrás</button>' : '<span class="back-link disabled" aria-hidden="true">← Atrás</span>'}${page.title ? `<h2>${page.title}</h2>` : ''}</article>`;
+    section.innerHTML = `${headerHtml(adventure, progress)}<article class="reading-column">${progress.history.length ? '<button class="back-link" id="back" aria-label="Volver a la decisión anterior">← Atrás</button>' : '<span class="back-link disabled" aria-hidden="true">← Atrás</span>'}</article>`;
     const article = section.querySelector('.reading-column');
     if (page.image) {
       article.append(imageWithPlaceholder({ src: new URL(page.image, basePath).toString(), alt: page.imageAlt || page.title || adventure.title, kind: 'page', pageId: page.id }));
