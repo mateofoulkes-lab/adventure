@@ -25,8 +25,12 @@ export function renderReader(app, adventure, basePath, onBackLibrary) {
     app.innerHTML = '';
     const section = document.createElement('section');
     section.className = 'reader-page';
-    section.innerHTML = `<nav class="reader-nav" aria-label="Controles de lectura"><button class="secondary-action" id="toLibrary">Biblioteca</button><button class="secondary-action" id="back" ${progress.history.length ? '' : 'disabled'}>Atrás</button><button class="secondary-action" id="restart">Reiniciar lectura actual</button><button class="danger-action" id="clear">Borrar todo el progreso</button></nav><p class="reader-kicker">${adventure.genre} · ${progress.discoveredEndings.length} / ${adventure.totalEndings} finales</p><h2>${adventure.title}</h2>${page.title ? `<h3>${page.title}</h3>` : ''}`;
-    section.append(imageWithPlaceholder({ src: new URL(page.image || adventure.cover, basePath).toString(), alt: page.imageAlt || page.title || adventure.title, kind: 'page', pageId: page.id }));
+    section.innerHTML = `<nav class="reader-nav" aria-label="Controles de lectura"><button class="secondary-action" id="toLibrary">Biblioteca</button><button class="secondary-action" id="back" ${progress.history.length ? '' : 'disabled'}>Atrás</button><button class="secondary-action" id="restart">Reiniciar lectura actual</button><button class="danger-action" id="clear">Borrar todo el progreso</button></nav><p class="reader-kicker">${adventure.title} · ${adventure.genre} · ${progress.discoveredEndings.length} / ${adventure.totalEndings} finales</p>${page.title ? `<h2>${page.title}</h2>` : ''}`;
+    if (page.image) {
+      section.append(imageWithPlaceholder({ src: new URL(page.image, basePath).toString(), alt: page.imageAlt || page.title || adventure.title, kind: 'page', pageId: page.id }));
+    } else {
+      section.classList.add('text-only-page');
+    }
     const text = document.createElement('p'); text.className = 'story-text'; text.textContent = page.text; section.append(text);
     if (page.isEnding) {
       const box = document.createElement('div'); box.className = 'ending-box';

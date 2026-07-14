@@ -10,7 +10,7 @@ Propiedades: `id`, `title`, `author`, `summary`, `cover` (`images/cover.jpg`), `
 
 ## Página
 
-Cada página vive en `pages` con clave igual a su `id`. Usa `title`, `text`, `image`, `imageAlt`, `choices`, `isEnding`, `endingId` y `endingTitle`. Las páginas finales tienen `isEnding: true`, `endingId`, `endingTitle` y `choices: []`.
+Cada página vive en `pages` con clave igual a su `id`. Usa `title`, `text`, `image`, `imageAlt`, `choices`, `isEnding`, `endingId` y `endingTitle`. `image` es opcional: si se omite, la página se muestra como página de solo texto sin placeholder. Las páginas finales tienen `isEnding: true`, `endingId`, `endingTitle` y `choices: []`.
 
 ## Decisión
 

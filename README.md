@@ -35,7 +35,7 @@ La fuente display elegida es **Eczar** desde Google Fonts: es libre, expresiva, 
 
 ## Placeholders
 
-Si falta `cover.jpg` o cualquier `page-XXX.jpg`, el sitio oculta la imagen rota, registra una advertencia en consola y muestra un placeholder hecho solo con HTML/CSS: `PORTADA PENDIENTE` o `ILUSTRACIÓN PENDIENTE`.
+Si una portada o una ilustración declarada como `page-XXX.jpg` falta, el sitio oculta la imagen rota, registra una advertencia en consola y muestra un placeholder hecho solo con HTML/CSS: `PORTADA PENDIENTE` o `ILUSTRACIÓN PENDIENTE`. Si una página no declara `image`, se trata como página normal de solo texto y no muestra placeholder.
 
 ## Progreso
 
