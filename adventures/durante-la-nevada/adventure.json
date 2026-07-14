@@ -8,5 +8,62 @@
   "genre": "Ciencia ficción / Fanfic",
   "startPage": "p001",
   "totalEndings": 18,
-  "pages": {}
+  "pages": {
+    "p001": {
+      "id": "p001",
+      "title": "La cripta bajo la torre",
+      "text": "La antorcha tiembla en tu mano mientras bajás por la escalera de piedra. Arriba quedan los golpes del asedio contra el portón de la ciudadela. Abajo solo hay frío y silencio.\n\nEl pasadizo termina en una cripta circular. En el centro, sobre una losa verde, descansa el cuerpo del rey sin nombre. Tiene una corona de hierro clavada en el cráneo y las manos cruzadas sobre el pecho.\n\nNo parece muerto.\n\nA tu izquierda hay una puerta de bronce con un halcón tallado. Por debajo se filtra una línea de luz dorada.\n\nA tu derecha, un túnel de raíces baja hacia la oscuridad. Algo raspa la piedra desde adentro, se detiene, y vuelve a raspar.\n\nEntonces la corona del rey cruje.\n\nUna gota negra cae sobre la losa. La piedra la absorbe. En las paredes, los nombres de los muertos empiezan a borrarse.\n\nTenés poco tiempo. Si la leyenda es cierta, la cripta va a elegir por vos.",
+      "imageAlt": "Una cripta medieval circular iluminada por una antorcha, con un rey incorrupto sobre una losa verde, una puerta de bronce con un halcón y un túnel de raíces.",
+      "choices": [
+        {
+          "text": "Abrir la puerta de bronce del halcón.",
+          "target": "p002"
+        },
+        {
+          "text": "Entrar en el túnel de raíces.",
+          "target": "p003"
+        }
+      ]
+    },
+    "p002": {
+      "id": "p002",
+      "title": "La puerta del halcón",
+      "text": "Empujás la puerta de bronce.\n\nAl principio no cede. Después las bisagras gimen y la luz dorada se abre sobre tu cara.\n\nDel otro lado hay un puente angosto suspendido sobre una garganta negra. No se ve fondo. No se ve cielo. Solo una torre solitaria al otro lado y varias campanas colgadas en la oscuridad.\n\nCada campana tiene un nombre grabado.\n\nCuando pisás el primer tablón, todas vibran al mismo tiempo.\n\nNo suenan.\n\nRespiran.\n\nDesde la torre, una figura encapuchada levanta una mano demasiado larga. Entre sus dedos cuelga una llave de hueso.\n\n—Bueno, pará —dice una voz—. Pará, pará, pará.\n\nLa oscuridad de la garganta se rompe.\n\nLa torre, las campanas y la figura encapuchada quedan suspendidas en el aire como una imagen que alguien apagó antes de tiempo.\n\nAhora ves la mesa.\n\nEstán en el quincho del patio de la casa de Pablo, jugando rol. Hay hojas, dados, latas abiertas y una pantalla de cartón levantada frente a Pablo, que todavía tiene una mano en alto, congelada en el gesto teatral de la figura encapuchada.\n\nMateo lo mira sin cambiar la cara. Diego se inclina hacia un costado, atento. Lucho frunce el ceño. Lean mira a Lucho. Pepe levanta apenas los ojos de la hoja. Agustín se queda con la boca entreabierta.\n\nEntonces suena otra bocina.\n\nNo una. Varias.\n\nLos bocinazos llegan desde la calle, largos, insistentes, desesperados. Uno se corta de golpe. Otro empieza más lejos. Otro responde desde algún lugar cercano.\n\nPablo baja la mano.\n\nNadie se ríe.\n\nUn grito atraviesa la noche detrás de las ventanas.\n\nNo es un grito de sorpresa. Es un grito roto, animal, de alguien que ya entendió algo tarde.\n\nDurante un segundo, nadie toca los dados.",
+      "imageAlt": "Una mesa de rol interrumpida en un quincho-depósito, con dados, hojas, latas y una pantalla de master frente a Pablo mientras todos escuchan bocinazos desde la calle.",
+      "choices": [
+        {
+          "text": "Correr la cortina para mirar hacia el patio.",
+          "target": "p004"
+        },
+        {
+          "text": "Ignorar los gritos y seguir jugando.",
+          "target": "p005"
+        },
+        {
+          "text": "Abrir la puerta para cruzar el patio e ir hacia la calle.",
+          "target": "p006"
+        }
+      ]
+    },
+    "p003": {
+      "id": "p003",
+      "title": "El túnel de raíces",
+      "text": "Entrás en el túnel de raíces.\n\nLa roca se estrecha enseguida. Tenés que avanzar de costado, con la antorcha cerca de la cara. Las raíces cuelgan del techo como dedos húmedos.\n\nEl suelo cruje bajo tus botas.\n\nNo son ramas.\n\nSon huesos viejos, coronas rotas y pedazos de armadura hundidos en la tierra.\n\nMás adelante, una raíz se aparta sola y deja ver una frase tallada en la piedra:\n\nEL REY NO DUERME BAJO LA TORRE.\nLA TORRE DUERME SOBRE ÉL.\n\nLa antorcha parpadea.\n\nEl túnel desemboca en una garganta negra. Un puente angosto cruza hacia una torre suspendida en la oscuridad. Del otro lado, una figura encapuchada espera con una llave de hueso en una mano y una corona de hierro en la otra.\n\n—Bueno, pará —dice una voz—. Pará, pará, pará.\n\nLa oscuridad de la garganta se rompe.\n\nLa torre, las campanas y la figura encapuchada quedan suspendidas en el aire como una imagen que alguien apagó antes de tiempo.\n\nAhora ves la mesa.\n\nEstán en el quincho del patio de la casa de Pablo, jugando rol. Hay hojas, dados, latas abiertas y una pantalla de cartón levantada frente a Pablo, que todavía tiene una mano en alto, congelada en el gesto teatral de la figura encapuchada.\n\nMateo lo mira sin cambiar la cara. Diego se inclina hacia un costado, atento. Lucho frunce el ceño. Lean mira a Lucho. Pepe levanta apenas los ojos de la hoja. Agustín se queda con la boca entreabierta.\n\nEntonces suena otra bocina.\n\nNo una. Varias.\n\nLos bocinazos llegan desde la calle, largos, insistentes, desesperados. Uno se corta de golpe. Otro empieza más lejos. Otro responde desde algún lugar cercano.\n\nPablo baja la mano.\n\nNadie se ríe.\n\nUn grito atraviesa la noche detrás de las ventanas.\n\nNo es un grito de sorpresa. Es un grito roto, animal, de alguien que ya entendió algo tarde.\n\nDurante un segundo, nadie toca los dados.",
+      "imageAlt": "Una mesa de rol interrumpida en un quincho-depósito tras una escena de fantasía con túnel de raíces, dados, hojas, latas y pantalla de master frente a Pablo.",
+      "choices": [
+        {
+          "text": "Correr la cortina para mirar hacia el patio.",
+          "target": "p004"
+        },
+        {
+          "text": "Ignorar los gritos y seguir jugando.",
+          "target": "p005"
+        },
+        {
+          "text": "Abrir la puerta para cruzar el patio e ir hacia la calle.",
+          "target": "p006"
+        }
+      ]
+    }
+  }
 }

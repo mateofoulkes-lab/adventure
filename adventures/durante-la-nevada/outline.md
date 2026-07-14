@@ -78,9 +78,9 @@ Objetivos:
 
 ## Páginas iniciales planificadas, no escritas
 
-- `p001`: arranque falso de fantasía medieval narrado por Pablo dentro del juego. Termina con una decisión interna de la partida.
-- `p002`: consecuencia de una decisión inicial; interrumpida por bocinazos de la calle.
-- `p003`: consecuencia de la otra decisión inicial; interrumpida por bocinazos de la calle.
-- `p002` y `p003` deben ofrecer las mismas dos opciones y converger.
+- `p001`: escrita y aprobada. Arranque falso de fantasía medieval narrado por Pablo dentro del juego. Termina con dos decisiones internas de la partida: abrir la puerta de bronce del halcón (`p002`) o entrar en el túnel de raíces (`p003`).
+- `p002`: escrita y aprobada. Consecuencia de abrir la puerta de bronce del halcón; continúa la fantasía y se interrumpe con bocinazos de la calle. Termina con opciones hacia `p004`, `p005` y `p006`.
+- `p003`: escrita y aprobada. Consecuencia de entrar en el túnel de raíces; continúa la fantasía y se interrumpe con el mismo corte de realidad que `p002`. Termina con opciones hacia `p004`, `p005` y `p006`.
+- `p002` y `p003` ofrecen las mismas tres opciones y convergen hacia las páginas pendientes `p004`, `p005` y `p006`.
 
 No escribir estas páginas hasta recibir aprobación específica del texto de cada una.

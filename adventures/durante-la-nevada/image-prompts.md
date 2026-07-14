@@ -17,7 +17,23 @@ Reglas:
 
 ## Páginas planificadas
 
-No hay imágenes de páginas aprobadas todavía.
+### p001 — La cripta bajo la torre
+
+- Imagen: no declarada por ahora.
+- Estado: página aprobada sin imagen.
+- `imageAlt` registrado en `adventure.json`: cripta medieval circular iluminada por una antorcha, rey incorrupto sobre losa verde, puerta de bronce con halcón y túnel de raíces.
+
+### p002 — La puerta del halcón
+
+- Imagen: no declarada por ahora.
+- Estado: página aprobada sin imagen.
+- `imageAlt` registrado en `adventure.json`: mesa de rol interrumpida en un quincho-depósito, con dados, hojas, latas y pantalla de master frente a Pablo mientras todos escuchan bocinazos desde la calle.
+
+### p003 — El túnel de raíces
+
+- Imagen: no declarada por ahora.
+- Estado: página aprobada sin imagen.
+- `imageAlt` registrado en `adventure.json`: mesa de rol interrumpida en un quincho-depósito tras una escena de fantasía con túnel de raíces, dados, hojas, latas y pantalla de master frente a Pablo.
 
 ### Momento futuro: Ford Falcon
 
