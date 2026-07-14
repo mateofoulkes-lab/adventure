@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Constructor privado de prompts de aventura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600;700;800&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --font-display: 'Eczar', 'Cooper Black', 'Bookman Old Style', serif;
+      --font-reading: 'Libre Baskerville', 'Palatino Linotype', serif;
+      --font-ui: 'Source Sans 3', Arial, sans-serif;
+      --cream: #f7efd9;
+      --paper: #fffdf5;
+      --ink: #12100c;
+      --red: #c01822;
+      --dark-red: #7d1118;
+      --brown: #5b351f;
+      --muted-gold: #c9a24a;
+      --line: #d8c99b;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: radial-gradient(circle at top, #fff8e6, var(--cream));
+      font-family: var(--font-reading);
+    }
+    button, input, select, textarea { font: 700 1rem var(--font-ui); }
+    input, select, textarea {
+      width: 100%;
+      border: 2px solid #cdbf96;
+      border-radius: .45rem;
+      background: #fffaf0;
+      color: var(--ink);
+      padding: .65rem .75rem;
+    }
+    textarea { min-height: 6rem; resize: vertical; line-height: 1.45; }
+    label { display: grid; gap: .35rem; font: 800 .9rem var(--font-ui); color: var(--brown); }
+    button { cursor: pointer; border-radius: .45rem; }
+    button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 4px solid var(--muted-gold); outline-offset: 2px; }
+    .tool-shell { max-width: 1180px; margin: 0 auto; padding: clamp(1rem, 3vw, 2rem); }
+    .tool-header {
+      margin: 1rem auto;
+      padding: clamp(1.25rem, 4vw, 2.25rem);
+      text-align: center;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 40px #4b2d1826;
+    }
+    .red-capsule { display:inline-block; background: linear-gradient(var(--red), var(--dark-red)); color:#fff; border-radius:999px; padding:.5rem 1.35rem; font:800 .85rem var(--font-ui); letter-spacing:.12em; }
+    h1 { margin:.7rem 0 .35rem; font:800 clamp(2rem, 6vw, 4.4rem)/.9 var(--font-display); letter-spacing:.02em; text-transform: uppercase; }
+    .subtitle { margin: .6rem auto 0; max-width: 760px; font: 700 1.05rem/1.45 var(--font-ui); }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .82fr); gap: 1rem; align-items: start; }
+    .panel { background: var(--paper); border: 1px solid var(--line); box-shadow: 0 10px 26px #3b24171f; padding: clamp(1rem, 2vw, 1.35rem); }
+    .panel h2 { margin: 0 0 1rem; font: 800 clamp(1.45rem, 3vw, 2rem)/1 var(--font-display); color: var(--dark-red); text-transform: uppercase; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+    .full { grid-column: 1 / -1; }
+    .stack { display: grid; gap: .85rem; }
+    .topic-row { display: grid; grid-template-columns: minmax(140px, 1fr) 160px; gap: .7rem; align-items: center; padding: .55rem 0; border-bottom: 1px dashed #dccda2; }
+    .topic-row span { font: 800 .95rem var(--font-ui); }
+    .dynamic-item, .secret-card { display: grid; gap: .7rem; padding: .85rem; background: #fff8e8; border: 1px solid #e0cea1; border-radius: .55rem; }
+    .secret-card header { display: flex; justify-content: space-between; gap: .5rem; align-items: center; }
+    .secret-card h3 { margin: 0; font: 800 1.1rem var(--font-display); color: var(--brown); }
+    .button-row { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: .85rem; }
+    .primary, .secondary, .danger { border: 2px solid; padding: .65rem .9rem; font-weight: 800; }
+    .primary { background: var(--red); color: white; border-color: var(--dark-red); }
+    .secondary { background: #fff9e9; color: var(--ink); border-color: var(--brown); }
+    .danger { background: #fff0ef; color: var(--dark-red); border-color: var(--dark-red); }
+    .preview { position: sticky; top: 1rem; }
+    #promptPreview { min-height: 72vh; font-family: var(--font-ui); font-weight: 600; white-space: pre-wrap; }
+    .notice { min-height: 1.5rem; color: var(--dark-red); font: 800 .9rem var(--font-ui); }
+    .compact { font: 700 .86rem/1.35 var(--font-ui); color: var(--brown); }
+    @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .preview { position: static; } #promptPreview { min-height: 34rem; } }
+    @media (max-width: 620px) { .grid, .topic-row { grid-template-columns: 1fr; } .tool-shell { padding: .7rem; } .button-row button { width: 100%; } }
+  </style>
+</head>
+<body>
+  <main class="tool-shell">
+    <header class="tool-header">
+      <p class="red-capsule">HERRAMIENTA PRIVADA</p>
+      <h1>Constructor de prompts</h1>
+      <p class="subtitle">Generá un prompt completo para iniciar una nueva aventura con Codex. Esta página no está enlazada desde el catálogo público y funciona solo en el navegador.</p>
+    </header>
+
+    <div class="layout">
+      <form id="builderForm" class="stack" autocomplete="off">
+        <section class="panel" aria-labelledby="basic-title">
+          <h2 id="basic-title">Datos básicos</h2>
+          <div class="grid">
+            <label>Título provisional<input name="title" type="text"></label>
+            <label>Género<input name="genre" type="text" placeholder="fantasía oscura, misterio, ciencia ficción..."></label>
+            <label class="full">Premisa<textarea name="premise"></textarea></label>
+            <label>Protagonista<input name="protagonist" type="text"></label>
+            <label>Tono<input name="tone" type="text" placeholder="melancólico, aventurero, inquietante..."></label>
+            <label>Público aproximado<input name="audience" type="text" placeholder="juvenil, adulto, todo público..."></label>
+            <label>Extensión estimada<select name="length"><option></option><option>corta</option><option>media</option><option>larga</option><option>personalizada</option></select></label>
+            <label>Cantidad aproximada de páginas<input name="pages" type="number" min="1"></label>
+            <label>Cantidad aproximada de finales<input name="endings" type="number" min="1"></label>
+            <label>Persona narrativa<select name="person"><option></option><option>primera persona</option><option>segunda persona</option><option>tercera persona</option></select></label>
+            <label>Tiempo verbal<select name="tense"><option></option><option>presente</option><option>pasado</option></select></label>
+            <label class="full">Estilo general<textarea name="style" placeholder="referencias de ritmo, prosa, claridad, estructura..."></textarea></label>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="content-title">
+          <h2 id="content-title">Contenidos y límites</h2>
+          <div id="topics"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="elements-title">
+          <h2 id="elements-title">Elementos deseados</h2>
+          <div id="elementsList" class="stack"></div>
+          <div class="button-row"><button class="secondary" type="button" id="addElement">AGREGAR ELEMENTO</button></div>
+        </section>
+
+        <section class="panel" aria-labelledby="secrets-title">
+          <h2 id="secrets-title">Secretos de autor</h2>
+          <div id="secretsList" class="stack"></div>
+          <div class="button-row"><button class="secondary" type="button" id="addSecret">AGREGAR SECRETO</button></div>
+        </section>
+
+        <section class="panel" aria-labelledby="images-title">
+          <h2 id="images-title">Ilustraciones</h2>
+          <div class="grid">
+            <label>Política de ilustraciones<select name="imagePolicy"><option></option><option>decidir página por página</option><option>todas las páginas llevan ilustración</option><option>algunas páginas llevan ilustración</option><option>ninguna página lleva ilustración</option></select></label>
+            <label>Porcentaje estimado de páginas ilustradas<input name="imagePercent" type="number" min="0" max="100" placeholder="0-100"></label>
+          </div>
+          <p class="compact">El prompt generado incluye JPG obligatorio, no generar SVG, usar placeholder HTML/CSS si hay propiedad image declarada pero falta el JPG, y no mostrar placeholder si una página no tiene propiedad image.</p>
+        </section>
+
+        <section class="panel" aria-labelledby="prefs-title">
+          <h2 id="prefs-title">Preferencias narrativas</h2>
+          <div class="grid">
+            <label>Ritmo<input name="pace" type="text"></label>
+            <label>Nivel de oscuridad<select name="darkness"><option></option><option>bajo</option><option>medio</option><option>alto</option></select></label>
+            <label>Cantidad habitual de decisiones<select name="decisionCount"><option></option><option>2</option><option>3</option><option>variable</option></select></label>
+            <label>Convergencia de ramas<select name="convergence"><option></option><option>baja</option><option>media</option><option>alta</option></select></label>
+            <label>Finales positivos<input name="positiveEndings" type="number" min="0"></label>
+            <label>Finales ambiguos<input name="ambiguousEndings" type="number" min="0"></label>
+            <label>Finales negativos<input name="negativeEndings" type="number" min="0"></label>
+            <label>Ramas que vuelven a unirse<select name="rejoinBranches"><option></option><option>permitir</option><option>evitar</option></select></label>
+          </div>
+        </section>
+      </form>
+
+      <section class="panel preview" aria-labelledby="preview-title">
+        <h2 id="preview-title">Vista previa editable</h2>
+        <textarea id="promptPreview" spellcheck="true"></textarea>
+        <p id="notice" class="notice" role="status" aria-live="polite"></p>
+        <div class="button-row">
+          <button class="primary" type="button" id="generatePrompt">GENERAR PROMPT</button>
+          <button class="secondary" type="button" id="copyPrompt">COPIAR AL PORTAPAPELES</button>
+          <button class="secondary" type="button" id="downloadPrompt">DESCARGAR COMO TXT</button>
+          <button class="danger" type="button" id="clearForm">LIMPIAR FORMULARIO</button>
+          <button class="danger" type="button" id="clearDraft">BORRAR BORRADOR GUARDADO</button>
+          <button class="secondary" type="button" id="exportConfig">EXPORTAR CONFIGURACIÓN COMO JSON</button>
+          <label class="secondary" style="display:inline-block; cursor:pointer;">IMPORTAR CONFIGURACIÓN DESDE JSON<input id="importConfig" type="file" accept="application/json,.json" hidden></label>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const STORAGE_KEY = 'adventurePromptBuilderDraft.v1';
+    const topics = ['violencia gráfica','terror extremo','abuso sexual','crueldad animal','lenguaje adulto','finales puramente aleatorios','protagonista con poderes','combate','inventario','estadísticas','variables narrativas complejas'];
+    const topicStates = ['permitido', 'evitar', 'prohibido'];
+    const secretStates = ['TOTALMENTE BLOQUEADO','BLOQUEADO','PISTAS LEVES PERMITIDAS','REVELACIÓN PARCIAL AUTORIZADA','REVELADO'];
+    const form = document.querySelector('#builderForm');
+    const preview = document.querySelector('#promptPreview');
+    const notice = document.querySelector('#notice');
+    const topicsBox = document.querySelector('#topics');
+    const elementsList = document.querySelector('#elementsList');
+    const secretsList = document.querySelector('#secretsList');
+
+    function field(name) { return form.elements[name]; }
+    function line(label, value) { return value ? `- ${label}: ${value}` : ''; }
+    function showNotice(text) { notice.textContent = text; window.clearTimeout(showNotice.timer); showNotice.timer = window.setTimeout(() => notice.textContent = '', 2800); }
+    function download(filename, text, type) { const blob = new Blob([text], { type }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); URL.revokeObjectURL(a.href); }
+
+    function buildTopics() {
+      topicsBox.innerHTML = topics.map(topic => `<label class="topic-row"><span>${topic}</span><select name="topic:${topic}">${topicStates.map(s => `<option>${s}</option>`).join('')}</select></label>`).join('');
+    }
+    function addElement(value = '') {
+      const wrap = document.createElement('div');
+      wrap.className = 'dynamic-item';
+      wrap.innerHTML = `<label>Elemento deseado<input type="text" data-element value="${escapeAttr(value)}" placeholder="un reloj enorme detenido..."></label><button class="danger" type="button">ELIMINAR</button>`;
+      wrap.querySelector('button').addEventListener('click', () => { wrap.remove(); saveDraft(); });
+      elementsList.append(wrap);
+    }
+    function addSecret(data = {}) {
+      const card = document.createElement('article');
+      card.className = 'secret-card';
+      card.innerHTML = `<header><h3>Secreto</h3><div class="button-row" style="margin:0"><button class="secondary" type="button" data-up>↑</button><button class="secondary" type="button" data-down>↓</button><button class="danger" type="button" data-remove>ELIMINAR</button></div></header>
+        <div class="grid"><label>Título o nombre<input data-secret="title" type="text" value="${escapeAttr(data.title || '')}"></label><label>Estado inicial<select data-secret="state">${secretStates.map(s => `<option ${s === data.state ? 'selected' : ''}>${s}</option>`).join('')}</select></label></div>
+        <label>Descripción<textarea data-secret="description">${escapeHtml(data.description || '')}</textarea></label>
+        <label>Condición de revelación<textarea data-secret="condition">${escapeHtml(data.condition || '')}</textarea></label>
+        <div class="grid"><label>Pistas permitidas<textarea data-secret="allowedClues">${escapeHtml(data.allowedClues || '')}</textarea></label><label>Pistas prohibidas<textarea data-secret="forbiddenClues">${escapeHtml(data.forbiddenClues || '')}</textarea></label></div>`;
+      card.querySelector('[data-remove]').addEventListener('click', () => { card.remove(); saveDraft(); });
+      card.querySelector('[data-up]').addEventListener('click', () => { if (card.previousElementSibling) secretsList.insertBefore(card, card.previousElementSibling); saveDraft(); });
+      card.querySelector('[data-down]').addEventListener('click', () => { if (card.nextElementSibling) secretsList.insertBefore(card.nextElementSibling, card); saveDraft(); });
+      secretsList.append(card);
+    }
+    function escapeAttr(text) { return String(text).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;'); }
+    function escapeHtml(text) { return String(text).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;'); }
+
+    function collectData() {
+      const data = { fields: {}, topics: {}, elements: [], secrets: [], preview: preview.value };
+      Array.from(form.elements).forEach(el => { if (el.name && !el.name.startsWith('topic:')) data.fields[el.name] = el.value; if (el.name && el.name.startsWith('topic:')) data.topics[el.name.slice(6)] = el.value; });
+      document.querySelectorAll('[data-element]').forEach(el => { if (el.value.trim()) data.elements.push(el.value.trim()); });
+      document.querySelectorAll('.secret-card').forEach(card => {
+        const secret = {};
+        card.querySelectorAll('[data-secret]').forEach(el => secret[el.dataset.secret] = el.value.trim());
+        if (Object.values(secret).some(Boolean)) data.secrets.push(secret);
+      });
+      return data;
+    }
+    function applyData(data) {
+      form.reset(); elementsList.innerHTML = ''; secretsList.innerHTML = '';
+      Object.entries(data.fields || {}).forEach(([name, value]) => { if (field(name)) field(name).value = value; });
+      Object.entries(data.topics || {}).forEach(([topic, value]) => { const el = form.elements[`topic:${topic}`]; if (el) el.value = value; });
+      (data.elements || []).forEach(addElement);
+      (data.secrets || []).forEach(addSecret);
+      preview.value = data.preview || '';
+    }
+    function saveDraft() { localStorage.setItem(STORAGE_KEY, JSON.stringify(collectData())); }
+    function loadDraft() { const raw = localStorage.getItem(STORAGE_KEY); if (raw) applyData(JSON.parse(raw)); }
+
+    function generatePrompt() {
+      const data = collectData();
+      const f = data.fields;
+      const sections = [];
+      const basics = [line('Título provisional', f.title), line('Género', f.genre), line('Premisa', f.premise), line('Protagonista', f.protagonist), line('Tono', f.tone), line('Público aproximado', f.audience), line('Extensión estimada', f.length), line('Cantidad aproximada de páginas', f.pages), line('Cantidad aproximada de finales', f.endings), line('Persona narrativa', f.person), line('Tiempo verbal', f.tense), line('Estilo general', f.style)].filter(Boolean).join('\n');
+      if (basics) sections.push(`## Datos básicos de la aventura\n${basics}`);
+      const content = Object.entries(data.topics).map(([topic, state]) => `- ${topic}: ${state}.`).join('\n');
+      if (content) sections.push(`## Límites de contenido\n${content}`);
+      if (data.elements.length) sections.push(`## Elementos deseados\n${data.elements.map(e => `- ${e}`).join('\n')}`);
+      if (data.secrets.length) sections.push(`## Secretos de autor\n${data.secrets.map((s, i) => [`${i + 1}. ${s.title || 'Secreto sin título'}`, line('Descripción', s.description), line('Estado inicial', s.state), line('Condición de revelación', s.condition), line('Pistas permitidas', s.allowedClues), line('Pistas prohibidas', s.forbiddenClues)].filter(Boolean).join('\n')).join('\n\n')}`);
+      const imageLines = [line('Política', f.imagePolicy), line('Porcentaje estimado de páginas ilustradas', f.imagePercent && `${f.imagePercent}%`), '- El formato obligatorio de imágenes es JPG.', '- No generes SVG ni imágenes automáticamente.', '- Si una página declara propiedad image pero falta el JPG, usá un placeholder hecho con HTML/CSS.', '- Si una página no tiene propiedad image, no muestres placeholder.'].filter(Boolean).join('\n');
+      sections.push(`## Reglas de ilustraciones\n${imageLines}`);
+      const prefs = [line('Ritmo', f.pace), line('Nivel de oscuridad', f.darkness), line('Cantidad habitual de decisiones', f.decisionCount), line('Convergencia de ramas', f.convergence), line('Cantidad de finales positivos', f.positiveEndings), line('Cantidad de finales ambiguos', f.ambiguousEndings), line('Cantidad de finales negativos', f.negativeEndings), f.rejoinBranches ? `- Ramas que vuelven a unirse: ${f.rejoinBranches}.` : ''].filter(Boolean).join('\n');
+      if (prefs) sections.push(`## Preferencias narrativas\n${prefs}`);
+      const text = `Quiero iniciar una nueva aventura interactiva en este repositorio.\n\nAntes de proponer cualquier contenido, leé obligatoriamente AGENTS.md y obedecé sus reglas. Inspeccioná el formato real del repositorio y de los archivos existentes antes de asumir estructuras. No modifiques archivos, no hagas commits y no escribas todavía la primera página sin aprobación explícita.\n\n${sections.join('\n\n')}\n\n## Reglas para proteger secretos\n- Tratá los secretos de autor como información privada de planificación.\n- No reveles un secreto antes del estado autorizado.\n- Si proponés pistas, asegurate de que sean compatibles con las pistas permitidas y que no usen pistas prohibidas.\n- Separá claramente lo que el lector sabe de lo que solo sabe el autor.\n\n## Trabajo inicial solicitado\n- Proponé una biblia inicial de la aventura.\n- Proponé estructura, escala, tipos de páginas, cantidad aproximada de ramas y distribución tentativa de finales.\n- Explicá cómo encajan los límites de contenido y los secretos en la planificación.\n- Indicá qué archivos habría que crear o actualizar después, pero no los modifiques todavía.\n\n## Formato de respuesta esperado\nRespondé con secciones claras: resumen de concepto, biblia propuesta, estructura propuesta, escala estimada, tratamiento de secretos, reglas de ilustración y próximos pasos. Terminá pidiendo aprobación antes de escribir o modificar cualquier archivo. No escribas todavía la primera página.`;
+      preview.value = text;
+      saveDraft();
+      showNotice('Prompt generado.');
+    }
+
+    buildTopics(); addElement(); addSecret(); loadDraft();
+    form.addEventListener('input', saveDraft); form.addEventListener('change', saveDraft); preview.addEventListener('input', saveDraft);
+    document.querySelector('#addElement').addEventListener('click', () => { addElement(); saveDraft(); });
+    document.querySelector('#addSecret').addEventListener('click', () => { addSecret(); saveDraft(); });
+    document.querySelector('#generatePrompt').addEventListener('click', generatePrompt);
+    document.querySelector('#copyPrompt').addEventListener('click', async () => { await navigator.clipboard.writeText(preview.value); showNotice('Texto copiado al portapapeles.'); });
+    document.querySelector('#downloadPrompt').addEventListener('click', () => download('prompt-aventura.txt', preview.value, 'text/plain;charset=utf-8'));
+    document.querySelector('#clearForm').addEventListener('click', () => { localStorage.removeItem(STORAGE_KEY); applyData({}); addElement(); addSecret(); showNotice('Formulario limpio.'); });
+    document.querySelector('#clearDraft').addEventListener('click', () => { localStorage.removeItem(STORAGE_KEY); showNotice('Borrador guardado eliminado.'); });
+    document.querySelector('#exportConfig').addEventListener('click', () => download('configuracion-aventura.json', JSON.stringify(collectData(), null, 2), 'application/json;charset=utf-8'));
+    document.querySelector('#importConfig').addEventListener('change', event => { const file = event.target.files[0]; if (!file) return; file.text().then(text => { applyData(JSON.parse(text)); saveDraft(); showNotice('Configuración importada.'); event.target.value = ''; }); });
+  </script>
+</body>
+</html>
