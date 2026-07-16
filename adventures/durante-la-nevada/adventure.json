@@ -64,6 +64,26 @@
           "target": "p006"
         }
       ]
+    },
+    "p004": {
+      "id": "p004",
+      "title": "La cortina del patio",
+      "text": "Corrés la cortina.\n\nLa ventana empieza a un metro del piso, así que al principio no ves el patio completo. Ves la pared de enfrente, la otra ventana, el reflejo débil del quincho en el vidrio y una claridad blanca cayendo desde arriba.\n\nNieva.\n\nEn San Nicolás.\n\nLos copos bajan lentos, grandes, absurdamente tranquilos.\n\n—No puede ser —dice Diego.\n\nNadie se ríe.\n\nDel otro lado del patio, detrás de la ventana opuesta, aparece un hombre mayor con una campera marrón sobre el pijama. Abre la puerta que da afuera con el cuidado de alguien que no quiere despertar a nadie. Sale al patio mirando hacia arriba.\n\nPablo se queda duro.\n\n—Abuelo —dice.\n\nLa palabra no llega a ser un llamado. Es más bien una comprobación, una parte de su cabeza intentando acomodar lo imposible en una frase corta.\n\nEl viejo no los ve.\n\nDa dos pasos bajo la nevada. Sonríe apenas. Cierra los ojos y levanta la cara, como si quisiera sentir los copos en la piel. Como si fuera un chico. Como si San Nicolás acabara de regalarle algo que no iba a ver nunca.\n\nEl primer copo le toca la frente.\n\nDespués otro cae sobre el párpado.\n\nEl abuelo de Pablo abre la boca, pero no grita enseguida. Primero parece confundido. Se lleva una mano a la cara. Los dedos le tiemblan. La piel alrededor del ojo se le oscurece de golpe, como papel quemado desde adentro.\n\nEntonces sí grita.\n\nEl sonido atraviesa el patio y pega contra el vidrio con una fuerza física. Agustín retrocede. Lean dice algo que no se entiende. Pepe se queda mirando, blanco.\n\nEl viejo intenta volver. Da un paso hacia la puerta, pero las piernas se le doblan. Los copos le caen sobre la nuca, sobre las manos, sobre la cara levantada a medias. Donde tocan, la piel se hunde, se abre, se vuelve negra y brillante.\n\nPablo golpea el vidrio con la palma.\n\n—¡Abuelo!\n\nMateo lo agarra del hombro antes de que busque la puerta.\n\nEl viejo cae fuera del ángulo bajo de la ventana.\n\nY desaparece.\n\nNo porque se haya ido. Porque desde donde están ustedes, con esa ventana alta y esa pared cruzada, el cuerpo queda fuera de vista.\n\nSolo queda la nieve cayendo.\n\nUna nieve hermosa.\n\nPerfecta.\n\nSilenciosa.\n\nPablo no se mueve. Tiene la mano todavía apoyada en el vidrio. Mira el punto donde su abuelo estuvo hace dos segundos, como si la realidad pudiera deshacer la escena si él no parpadea.\n\n—Capaz fue... —empieza Agustín.\n\nNo termina.\n\nPorque nadie sabe qué fue.\n\nTodavía no.",
+      "imageAlt": "El grupo mirando desde una ventana alta del quincho hacia el patio, mientras a través de una ventana opuesta se ve al abuelo de Pablo saliendo a una nevada imposible.",
+      "choices": [
+        {
+          "text": "Sujetar a Pablo antes de que intente salir al patio.",
+          "target": "p007"
+        },
+        {
+          "text": "Intentar entender si lo mató la nieve o si fue otra cosa.",
+          "target": "p008"
+        },
+        {
+          "text": "Buscar algo para cubrirse y salir a ayudarlo.",
+          "target": "p009"
+        }
+      ]
     }
   }
 }
