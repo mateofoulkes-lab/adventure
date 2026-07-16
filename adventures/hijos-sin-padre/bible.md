@@ -1,7 +1,7 @@
 # Hijos sin padre — Biblia de aventura
 
 Autor: Walter Schloff
-Estado: aventura completa inicial.
+Estado: aventura completa inicial validada.
 
 ## Concepto
 
@@ -28,19 +28,20 @@ La aventura sigue a Matt mientras intenta desentrañar la conspiración y el ori
 
 ## Estructura
 
-- 32 páginas de decisión o continuidad.
+- 48 páginas de decisión o continuidad.
 - 20 finales.
-- Distribución: 5 buenos, 5 neutrales, 10 malos.
+- Validación local: 68 páginas totales, 20 finales declarados, 20 finales reales, 0 destinos rotos, 0 finales duplicados.
+- Distribución deseada por autor: 5 buenos, 5 neutrales, 10 malos.
+- Rótulo actual en títulos: 4 buenos, 5 neutrales, 11 malos. Pendiente menor: reclasificar uno de los finales malos como bueno o cambiar el tono de “La señal respondida” a final bueno si se quiere que el rótulo visible coincida exactamente con la distribución deseada.
 
-## Finales buenos
+## Finales buenos actuales
 
 - El protocolo del no.
 - La red despierta.
 - Hijos con nombre.
 - El hotel abierto.
-- La señal respondida puede leerse como neutral, no positivo pleno.
 
-## Finales neutrales
+## Finales neutrales actuales
 
 - La familia fantasma.
 - Testigos.
@@ -48,7 +49,7 @@ La aventura sigue a Matt mientras intenta desentrañar la conspiración y el ori
 - La señal respondida.
 - La puerta rota.
 
-## Finales malos
+## Finales malos actuales
 
 - Estadística.
 - La ruta larga.
@@ -61,8 +62,6 @@ La aventura sigue a Matt mientras intenta desentrañar la conspiración y el ori
 - Fuego contra señal.
 - Los relojes rotos.
 - Carnada.
-
-Nota: la aventura declara 20 finales totales. La lectura de tono puede hacer que algunos finales sean ambiguos, pero la intención estructural es 5 buenos, 5 neutrales y 10 malos.
 
 ## Estilo visual
 
