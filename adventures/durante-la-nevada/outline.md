@@ -1,6 +1,6 @@
 # Durante la nevada — Outline
 
-Estado: estructura inicial aprobada, sin páginas narrativas escritas.
+Estado: estructura inicial aprobada, primeras cuatro páginas narrativas escritas.
 
 ## Escala
 
@@ -27,7 +27,7 @@ Objetivos:
 - Comenzar con una escena que parece fantasía medieval, pero es el juego mastereado por Pablo.
 - Ubicar la acción en el quincho-depósito.
 - Terminar la primera página con una decisión dentro del juego, sin relación directa con la nevada.
-- Interrumpir las dos páginas siguientes con bocinazos de la calle y ofrecer las mismas dos opciones para converger.
+- Interrumpir las dos páginas siguientes con bocinazos de la calle y ofrecer las mismas opciones para converger.
 - Revelar progresivamente que la nevada mata.
 
 ## Acto II — La casa como trampa
@@ -76,11 +76,19 @@ Objetivos:
 - Revelar la antena y el origen alienígena solo en el momento autorizado.
 - Resolver finales positivos, ambiguos y negativos.
 
-## Páginas iniciales planificadas, no escritas
+## Páginas iniciales
 
 - `p001`: escrita y aprobada. Arranque falso de fantasía medieval narrado por Pablo dentro del juego. Termina con dos decisiones internas de la partida: abrir la puerta de bronce del halcón (`p002`) o entrar en el túnel de raíces (`p003`).
 - `p002`: escrita y aprobada. Consecuencia de abrir la puerta de bronce del halcón; continúa la fantasía y se interrumpe con bocinazos de la calle. Termina con opciones hacia `p004`, `p005` y `p006`.
 - `p003`: escrita y aprobada. Consecuencia de entrar en el túnel de raíces; continúa la fantasía y se interrumpe con el mismo corte de realidad que `p002`. Termina con opciones hacia `p004`, `p005` y `p006`.
-- `p002` y `p003` ofrecen las mismas tres opciones y convergen hacia las páginas pendientes `p004`, `p005` y `p006`.
+- `p004`: escrita según indicación del autor. Al correr la cortina en el momento exacto, el grupo ve por la ventana opuesta del patio cómo el abuelo de Pablo sale a disfrutar la nevada, recibe copos en la cara y muere horriblemente. La ventana alta impide ver luego el cadáver. La escena deja abierta la duda sobre si la nevada es mortal o si fue un caso aislado, y Pablo queda intentando asimilar lo ocurrido.
 
-No escribir estas páginas hasta recibir aprobación específica del texto de cada una.
+## Páginas pendientes inmediatas
+
+- `p005`: consecuencia de ignorar los gritos e intentar seguir jugando.
+- `p006`: consecuencia de abrir la puerta para cruzar el patio e ir hacia la calle.
+- `p007`: consecuencia de sujetar a Pablo antes de que intente salir al patio.
+- `p008`: consecuencia de intentar entender si lo mató la nieve o si fue otra cosa.
+- `p009`: consecuencia de buscar algo para cubrirse y salir a ayudarlo.
+
+Seguir trabajando una página narrativa por vez y no modificar texto aprobado sin autorización explícita.
