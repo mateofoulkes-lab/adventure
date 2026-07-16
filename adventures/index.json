@@ -23,6 +23,18 @@
       "publicationStatus": "published",
       "order": 2,
       "accentColor": "#0f9f4a"
+    },
+    {
+      "id": "hijos-sin-padre",
+      "title": "Hijos sin padre",
+      "author": "Walter Schloff",
+      "summary": "Matt intenta proteger a su familia y desentrañar una conspiración global después de que 120.000 mujeres dan a luz niños sin ADN masculino que hablan al unísono en una cuenta regresiva.",
+      "path": "adventures/hijos-sin-padre/adventure.json",
+      "cover": "adventures/hijos-sin-padre/images/cover.jpg",
+      "genre": "Ciencia ficción apocalíptica",
+      "publicationStatus": "published",
+      "order": 3,
+      "accentColor": "#5e2f22"
     }
   ]
 }
