@@ -1,0 +1,535 @@
+{
+  "id": "hijos-sin-padre",
+  "title": "Hijos sin padre",
+  "author": "Walter Schloff",
+  "summary": "Matt intenta proteger a su familia y desentrañar una conspiración global después de que 120.000 mujeres dan a luz niños sin ADN masculino que hablan al unísono en una cuenta regresiva.",
+  "cover": "images/cover.jpg",
+  "version": "1.0.0",
+  "genre": "Ciencia ficción apocalíptica",
+  "startPage": "p001",
+  "totalEndings": 20,
+  "pages": {
+    "p001": {
+      "id": "p001",
+      "title": "Doce",
+      "text": "La primera vez que tu hijo habla, lo hace al mismo tiempo que otros ciento diecinueve mil novecientos noventa y nueve bebés.\n\nNo lo sabés todavía. En ese momento solo estás en la cocina, descalzo, con una taza de café frío en la mano y Julia dormida en el sillón, pálida desde el parto. El niño está en su moisés. Tiene una semana de vida y una cara demasiado atenta para alguien que debería vivir entre sueño, leche y llanto.\n\nAbre los ojos. Te mira.\n\n—Doce —dice.\n\nLa taza se te cae y no se rompe. Rebota contra la alfombra con un golpe blando. Julia se despierta antes de que puedas moverte. En la televisión, una periodista deja de leer. Detrás de ella, en una guardia de San Pablo, otro bebé acaba de pronunciar la misma palabra.\n\nDoce.\n\nEn Tokio. En Lagos. En Córdoba. En Helsinki.\n\nJulia se lleva una mano al abdomen, como si todavía estuviera embarazada. El niño sonríe con encías perfectas.",
+      "image": "images/page-001.jpg",
+      "imageAlt": "Un padre de madrugada en una cocina mirando a un bebé en un moisés mientras la televisión muestra noticias de nacimientos imposibles.",
+      "choices": [
+        { "text": "Cerrar la casa y proteger a Julia y al niño.", "target": "p002" },
+        { "text": "Llamar al hospital donde atendieron el parto.", "target": "p003" },
+        { "text": "Buscar en internet si otros bebés dijeron lo mismo.", "target": "p004" }
+      ]
+    },
+    "p002": {
+      "id": "p002",
+      "title": "La casa cerrada",
+      "text": "Bajás las persianas, trabás la puerta, apagás las luces de adelante. Julia te mira sin entender si estás actuando con prudencia o entrando en pánico.\n\n—Matt —dice—, es un bebé.\n\nQuerés creerle. Querés creer que el hijo que nació de su cuerpo sin que ningún análisis encontrara un padre genético sigue siendo solamente eso. Un bebé. Pero en la pantalla ya hablan de partos simultáneos, ADN sin componente masculino, una cadena extraña repetida en todos los casos.\n\nEl teléfono no deja de vibrar. Tu madre. El hospital. Un número desconocido. Otro. Otro.\n\nEn la calle, un auto frena. Dos puertas se abren. No hay sirenas, pero alguien golpea la casa de enfrente con una autoridad que no necesita uniforme.\n\nEl niño vuelve a cerrar los ojos. Julia tiembla.\n\nLa casa, de pronto, parece hecha de papel.",
+      "choices": [
+        { "text": "Esconder a Julia y al niño en el sótano.", "target": "p005" },
+        { "text": "Atender la llamada del número desconocido.", "target": "p006" },
+        { "text": "Revisar al niño por tu cuenta.", "target": "p007" }
+      ]
+    },
+    "p003": {
+      "id": "p003",
+      "title": "La guardia saturada",
+      "text": "El hospital tarda diecisiete minutos en atender. Detrás de la voz de la recepcionista se escuchan gritos, ruedas de camillas, una alarma que nadie apaga.\n\n—Si llama por uno de los nacimientos del fenómeno, espere instrucciones oficiales. No traiga al niño. Repito: no traiga al niño.\n\nLa mujer baja la voz cuando decís el nombre de Julia.\n\n—Su expediente fue bloqueado hace una hora. No puedo verlo. Nadie de planta puede verlo.\n\nAntes de cortar, te pasa otro número. Dice que pertenece a la doctora Mara Levin, genética clínica, aunque pronuncia el nombre como si te estuviera entregando un arma.\n\nJulia escucha desde el sillón. El bebé la mira a ella, no a vos. En la televisión, por primera vez, alguien dice la palabra conspiración.",
+      "choices": [
+        { "text": "Ir al hospital antes de que cierren el expediente del todo.", "target": "p006" },
+        { "text": "Llamar a la doctora Mara Levin.", "target": "p008" },
+        { "text": "Buscar a otras madres afectadas.", "target": "p009" }
+      ]
+    },
+    "p004": {
+      "id": "p004",
+      "title": "El hilo de las madres",
+      "text": "Encontrás el primer hilo en una red vieja que nadie usa para cosas importantes. A los treinta segundos ya no parece un hilo: parece una sala de emergencias escrita por miles de manos.\n\nFotos de panzas imposibles. Videos de partos. Mujeres que juran no haber tenido relaciones. Médicos que borran mensajes. Idiomas distintos, la misma palabra traducida: doce.\n\nUna usuaria llamada LÁZARO_12 publica una lista de coordenadas y un mensaje: NO LOS ENTREGUEN. NO SON MILAGROS. NO SON ENFERMEDAD. SON MENSAJEROS.\n\nDebajo, alguien responde con una dirección de descarga. El archivo pesa poco y tiene un nombre absurdo: padres_cero.zip.\n\nCuando lo abrís, la pantalla parpadea. Se activa la cámara de tu notebook.\n\nAlguien te está mirando desde el otro lado.",
+      "choices": [
+        { "text": "Descargar todo antes de desconectar internet.", "target": "p010" },
+        { "text": "Responder a LÁZARO_12 y pedir ayuda.", "target": "p011" },
+        { "text": "Cerrar la computadora y volver con Julia.", "target": "p002" }
+      ]
+    },
+    "p005": {
+      "id": "p005",
+      "title": "El sótano",
+      "text": "El sótano huele a humedad, pintura vieja y herramientas que prometieron arreglos que nunca hiciste. Bajás primero con una linterna. Julia te sigue con el niño contra el pecho.\n\nEn la planta alta golpean la puerta. Tres golpes. Pausa. Tres golpes. Pausa. Un patrón, no una visita.\n\nEl bebé abre los ojos. No llora. Eso empieza a darte más miedo que si gritara hasta quedarse sin aire.\n\nJulia se sienta entre cajas de Navidad.\n\n—No voy a dejar que se lo lleven —dice.\n\nNo sabés si habla de médicos, policías, fanáticos o de vos. En el techo, las pisadas recorren la casa. Alguien ya entró.",
+      "choices": [
+        { "text": "Escapar por la ventana angosta del sótano.", "target": "p012" },
+        { "text": "Quedarse quietos y esperar a que se vayan.", "target": "p013" },
+        { "text": "Usar tus herramientas para improvisar una defensa.", "target": "p014" }
+      ]
+    },
+    "p006": {
+      "id": "p006",
+      "title": "Los hombres sin insignia",
+      "text": "Atendés.\n\n—Señor Varela —dice una mujer—. Sabemos que el niño pronunció la palabra. Necesitamos trasladarlo para observación.\n\nNo pregunta. No explica. Detrás de la voz hay teclado, murmullos, un idioma que no reconocés. Cuando le pedís identificación, dice que la autoridad vendrá en persona.\n\nDos camionetas negras doblan en la esquina. No tienen sirenas ni emblemas. Bajan cuatro personas con camperas grises y maletines rígidos. Una vecina mira desde la cortina. Uno de ellos la señala. La cortina cae de golpe.\n\nJulia se pone de pie con el bebé en brazos.\n\n—Matt, ¿qué hiciste?\n\nNo tenés respuesta. Solo una puerta entre ellos y ustedes.",
+      "image": "images/page-006.jpg",
+      "imageAlt": "Camionetas negras frente a una casa suburbana de noche, con agentes sin insignia bajando bajo luz fría.",
+      "choices": [
+        { "text": "Entregar al niño para ganar tiempo y seguirlos.", "target": "p015" },
+        { "text": "Hacerlos pasar y fingir cooperación.", "target": "p016" },
+        { "text": "Huir por atrás con Julia.", "target": "p017" }
+      ]
+    },
+    "p007": {
+      "id": "p007",
+      "title": "Piel de una semana",
+      "text": "Ponés al niño sobre la mesa con una manta doblada. Julia protesta, pero no te detiene. Le tomás la temperatura, el pulso, la reacción de las pupilas. Todo parece normal, salvo la forma en que te observa.\n\nNo mira como un recién nacido. Mira como alguien que espera que entiendas algo obvio.\n\nEn la base del cráneo tiene una marca fina, apenas más clara que la piel. No es cicatriz. No es lunar. Es una línea perfecta, como el borde de una hoja enterrada bajo la carne.\n\nCuando la tocás, todos los aparatos de la cocina se apagan.\n\nEl bebé abre la boca.\n\nNo dice doce.\n\nDice tu nombre.",
+      "choices": [
+        { "text": "Hablarle como si pudiera entenderte.", "target": "p018" },
+        { "text": "Grabar la marca y la voz.", "target": "p019" },
+        { "text": "Intentar sedarlo antes de que pase algo peor.", "target": "p020" }
+      ]
+    },
+    "p008": {
+      "id": "p008",
+      "title": "Mara Levin",
+      "text": "Mara Levin atiende sin saludo.\n\n—No diga nombres completos. No diga dirección. Si el niño está despierto, aléjese dos metros antes de hablar.\n\nTe quedás helado. Ella sigue. Habla rápido, con la respiración de alguien que corre por un pasillo. Te dice que todas las muestras comparten una cadena no humana o no terrestre, pero corrige la palabra antes de que puedas reaccionar.\n\n—No dije extraterrestre. Dije no catalogada. Hay una diferencia política enorme.\n\nDel otro lado golpean una puerta. Mara baja la voz.\n\n—Si quiere respuestas, traiga una muestra al laboratorio viejo de la universidad. Si quiere sobrevivir, no confíe en nadie que use la palabra milagro.",
+      "choices": [
+        { "text": "Ir al laboratorio de Mara.", "target": "p021" },
+        { "text": "Pedirle que filtre todo a la prensa.", "target": "p022" },
+        { "text": "Preguntarle por el archivo padres_cero.", "target": "p023" }
+      ]
+    },
+    "p009": {
+      "id": "p009",
+      "title": "Ciento veinte mil",
+      "text": "El grupo de apoyo tiene tantas madres conectadas que la transmisión se rompe cada pocos segundos. Hay mujeres llorando, insultando, rezando. Hay maridos mudos detrás de ellas. Hay abuelas que sostienen bebés con la misma cara de miedo que Julia.\n\nUna mujer de Perú dice que su hijo no duerme. Una enfermera de Polonia dice que los bebés sincronizan el pulso. Una chica de Marruecos muestra cómo el suyo gira la cabeza hacia el norte cada vez que apagan la luz.\n\nJulia se acerca a la pantalla.\n\n—No estamos solas —susurra.\n\nEntonces una madre llamada Renata muestra a su hijo. El niño parece tener tres meses, aunque nació hace siete días. Sonríe y pronuncia una sílaba que no pertenece a ningún idioma humano.",
+      "choices": [
+        { "text": "Unirse a la red de madres para esconder familias.", "target": "p024" },
+        { "text": "Seguir a Renata, que parece saber más.", "target": "p025" },
+        { "text": "Llamar a los padres de Julia y pedir refugio.", "target": "p026" }
+      ]
+    },
+    "p010": {
+      "id": "p010",
+      "title": "Padres cero",
+      "text": "El archivo contiene fotos satelitales, listas de nacimientos, nombres de laboratorios, mapas de hospitales y una grabación de audio fechada doce años atrás.\n\nUna voz masculina dice: Si esto se reproduce, el protocolo de paternidad falló. No busquen a los padres. No existen. Busquen el origen de la semilla.\n\nDespués hay estática. Bajo la estática, algo late. No como un corazón. Como una señal comprimida.\n\nEncontrás una carpeta llamada LOS HIJOS. Dentro hay veinte nombres. Uno es el de tu hijo. Otro aparece repetido 120.000 veces con variaciones mínimas: MATT VARELA / VECTOR DOMÉSTICO / PROBABILIDAD DE RUPTURA ALTA.\n\nNo sos un padre. Sos una variable.",
+      "image": "images/page-010.jpg",
+      "imageAlt": "Una computadora mostrando mapas, ADN y archivos secretos en una habitación oscura, con un padre asustado reflejado en la pantalla.",
+      "choices": [
+        { "text": "Seguir la pista de los laboratorios del archivo.", "target": "p027" },
+        { "text": "Hackear el servidor antes de que borren todo.", "target": "p028" },
+        { "text": "Buscar quién grabó la voz de padres cero.", "target": "p029" }
+      ]
+    },
+    "p011": {
+      "id": "p011",
+      "title": "LÁZARO_12",
+      "text": "LÁZARO_12 responde con una dirección, una hora y una advertencia: VENGA SOLO SI TODAVÍA CREE QUE SU HIJO ES SU HIJO.\n\nNo sabés cómo contestar eso. La frase te ofende y te salva al mismo tiempo.\n\nJulia lee por encima de tu hombro.\n\n—No vayas solo.\n\nEl bebé, dormido contra su pecho, mueve los labios. No emite sonido, pero el monitor de la televisión subtitulada escribe una palabra que nadie dijo.\n\nONCE.\n\nFalta una semana para que el mundo entienda que la cuenta no espera a los noticieros. Vos tenés menos tiempo que eso.",
+      "choices": [
+        { "text": "Ir solo al encuentro.", "target": "p030" },
+        { "text": "Llevar a Julia y al niño.", "target": "p031" },
+        { "text": "Mandar a otro en tu lugar y observar desde lejos.", "target": "p032" }
+      ]
+    },
+    "p012": {
+      "id": "p012",
+      "title": "La ventana angosta",
+      "text": "La ventana del sótano no fue hecha para adultos. Sacás primero las cajas, después la reja oxidada. Julia pasa al niño envuelto en una campera. Afuera huele a lluvia y a electricidad.\n\nCuando te toca salir, los hombres de gris ya están en el patio. Uno apunta una linterna hacia el hueco.\n\n—Matt —dice, como si te conociera de años—. Si corre, su familia se convierte en estadística. Si coopera, puede seguir siendo padre un poco más.\n\nJulia te mira desde el pasto. El niño abre los ojos. En la casa vecina, alguien graba con un celular.",
+      "choices": [
+        { "text": "Correr hacia el auto de la vecina.", "target": "e006" },
+        { "text": "Rendirse para que no disparen.", "target": "p015" },
+        { "text": "Usar al vecino como testigo y gritar todo.", "target": "e007" }
+      ]
+    },
+    "p013": {
+      "id": "p013",
+      "title": "Silencio bajo la casa",
+      "text": "No respirás. Julia tampoco. Arriba revisan cajones, abren puertas, mueven sillas. Uno baja hasta la mitad de la escalera y se queda escuchando.\n\nEl niño no hace ruido. Peor: parece controlar su respiración.\n\nDespués de una hora, se van. No porque no los hayan encontrado. Porque algo los llama por radio y la urgencia de ese algo es mayor que ustedes.\n\nCuando subís, encontrás una tarjeta sobre la mesa. No tiene nombre. Solo una frase: CUANDO DIGA ONCE, VENGA VOLUNTARIAMENTE.\n\nEsa noche nadie duerme. A la semana siguiente, el niño camina.",
+      "choices": [
+        { "text": "Esperar la próxima palabra y observar.", "target": "e001" },
+        { "text": "Buscar a Mara antes de que diga once.", "target": "p008" },
+        { "text": "Desaparecer con Julia fuera de la ciudad.", "target": "e008" }
+      ]
+    },
+    "p014": {
+      "id": "p014",
+      "title": "Herramientas",
+      "text": "Con cinta, aerosol, una batería vieja y un taladro, armás algo que parece una mala decisión pero hace ruido y luz suficiente para confundir.\n\nCuando abren la puerta del sótano, activás el circuito. El fogonazo blanco llena la escalera. Julia corre detrás tuyo. Uno de los agentes cae. Otro dispara sin ver.\n\nEl disparo no te pega a vos.\n\nEl niño deja de respirar durante cuatro segundos. Después vuelve con un jadeo seco y una mirada que no te perdona nada.\n\nEn el aire queda olor a ozono y leche cortada.",
+      "choices": [
+        { "text": "Llevar al niño al laboratorio de Mara de inmediato.", "target": "p021" },
+        { "text": "Quedarte y pelear hasta sacarlos de la casa.", "target": "e009" },
+        { "text": "Huir sin mirar atrás.", "target": "e006" }
+      ]
+    },
+    "p015": {
+      "id": "p015",
+      "title": "Observación",
+      "text": "El traslado no parece un arresto. Eso lo vuelve peor. Te dejan ir con Julia en la camioneta. Te ofrecen agua. Nadie levanta la voz.\n\nEl centro de observación ocupa un hotel cerrado desde la pandemia. En el lobby hay madres con pulseras numeradas, padres contra la pared, médicos que no se miran entre sí. Los niños duermen en cunas transparentes. Todos respiran al mismo ritmo.\n\nUn hombre calvo se presenta como Keller. Dice que su trabajo es evitar el pánico.\n\n—El suyo es especial, Matt. No por lo que es. Por lo que usted puede hacer cuando lo pierda.\n\nJulia aprieta tu mano hasta hacerte doler.",
+      "choices": [
+        { "text": "Aceptar las condiciones y estudiar el lugar desde adentro.", "target": "p035" },
+        { "text": "Atacar a Keller cuando se acerque al niño.", "target": "e010" },
+        { "text": "Convencer a Julia de fingir cooperación.", "target": "p016" }
+      ]
+    },
+    "p016": {
+      "id": "p016",
+      "title": "Cooperación",
+      "text": "Los dejás entrar. Les ofrecés café. Hablás como un hombre razonable. Por dentro estás contando posiciones, manos, rutas, maletines.\n\nJulia entiende tarde y después entiende perfecto. Llora lo justo. Pregunta lo justo. Deja que una mujer de gris revise al niño mientras vos mirás el cierre del maletín médico.\n\nEl bebé toma el dedo de la agente. Ella se queda quieta.\n\n—Me está mostrando algo —susurra.\n\nKeller, desde la puerta, ordena que la separen del niño. La mujer empieza a sangrar por la nariz antes de obedecer.\n\nAhora sabés dos cosas: ellos tienen miedo y tu hijo puede abrir puertas que nadie ve.",
+      "choices": [
+        { "text": "Ayudar a la agente que sangra y ganarla como aliada.", "target": "p036" },
+        { "text": "Robar el maletín médico durante el caos.", "target": "p037" },
+        { "text": "Dejar que se lleven al niño para seguirlos.", "target": "p015" }
+      ]
+    },
+    "p017": {
+      "id": "p017",
+      "title": "Patio trasero",
+      "text": "Salís por atrás con Julia y el niño. El patio parece demasiado abierto. Cada ventana vecina puede ser un ojo. Cada sombra, una cámara.\n\nLas camionetas cierran la calle, pero todavía queda la medianera. Julia no puede trepar con el niño. Vos sí. Leanías una escalera si esto fuera una película. No hay escalera. Hay un árbol flaco, un tender y una pileta vacía.\n\nEl bebé mira hacia el este.\n\nDesde algún lugar de la ciudad, miles de perros empiezan a ladrar al mismo tiempo.",
+      "choices": [
+        { "text": "Trepar la medianera y buscar ayuda.", "target": "e011" },
+        { "text": "Volver adentro y negociar.", "target": "p016" },
+        { "text": "Seguir la dirección que mira el niño.", "target": "p025" }
+      ]
+    },
+    "p018": {
+      "id": "p018",
+      "title": "La conversación",
+      "text": "Te sentás frente a él. Te sentís ridículo y aterrado.\n\n—¿Qué sos?\n\nEl niño parpadea. La lámpara sobre la mesa oscila aunque no hay viento.\n\n—Hijo —dice.\n\nJulia se tapa la boca.\n\n—¿Hijo de quién? —preguntás.\n\nNo responde enseguida. Levanta una mano diminuta y toca tu muñeca. Por un instante ves una sala enorme, húmeda y negra, llena de mujeres dormidas bajo membranas de luz. Ves la Tierra desde afuera, no azul, sino marcada por miles de puntos rojos. Ves una cifra que baja.\n\nEl niño retira la mano.\n\n—De nadie —dice.\n\nY después, casi con pena:\n\n—Todavía.",
+      "image": "images/page-018.jpg",
+      "imageAlt": "Un padre hablando con un bebé de mirada adulta en una cocina oscura mientras visiones cósmicas aparecen como sombras alrededor.",
+      "choices": [
+        { "text": "Dejar que te muestre más.", "target": "p038" },
+        { "text": "Cortar el contacto y proteger a Julia.", "target": "p039" },
+        { "text": "Llamar a Mara y repetir cada palabra.", "target": "p008" }
+      ]
+    },
+    "p019": {
+      "id": "p019",
+      "title": "Prueba",
+      "text": "Grabás la marca, la voz y el apagón. Subís copias a tres nubes distintas, dos correos viejos y un foro donde nadie cree nada hasta que hay video.\n\nEn siete minutos, el archivo tiene cuatro millones de reproducciones. En diez, desaparece. En once, aparecen versiones falsas donde tu voz está cambiada y el niño parece un muñeco.\n\nPero alguien alcanza a descargar el original. Un periodista te manda una sola frase: SI SOBREVIVE HASTA LAS 23:00, LO PONGO AL AIRE.\n\nJulia pregunta si eso los salva.\n\nNo sabés. Quizá solo los hace visibles para depredadores más grandes.",
+      "choices": [
+        { "text": "Ir al canal y dar testimonio público.", "target": "p040" },
+        { "text": "Mandar la prueba a Mara, no a la prensa.", "target": "p021" },
+        { "text": "Usar la fama para convocar a otras familias.", "target": "p024" }
+      ]
+    },
+    "p020": {
+      "id": "p020",
+      "title": "La dosis",
+      "text": "No querés hacerle daño. Te repetís eso mientras buscás el sedante que quedó del parto complicado de Julia, mientras calculás peso, gotas, margen de error.\n\nJulia te ve con la jeringa y entiende antes de que hables.\n\n—No.\n\n—No sabemos qué puede hacer.\n\n—Es nuestro hijo.\n\nEl niño mira la aguja. Por primera vez parece un bebé de verdad: pequeño, indefenso, traicionado antes de tener palabras para nombrarlo.\n\nCuando acercás la mano, todos los vidrios de la casa se fisuran al mismo tiempo.",
+      "choices": [
+        { "text": "Seguir adelante con la dosis.", "target": "e012" },
+        { "text": "Tirar la jeringa y pedir perdón.", "target": "p018" },
+        { "text": "Darle la dosis a vos mismo para no hacer una locura.", "target": "e013" }
+      ]
+    },
+    "p021": {
+      "id": "p021",
+      "title": "El laboratorio viejo",
+      "text": "Mara abre una puerta lateral de la universidad con una tarjeta que no debería seguir funcionando. El laboratorio viejo conserva microscopios, freezers y polvo.\n\nToma una muestra mínima del niño. Julia mira cada gesto como si pudiera convertirlo en delito.\n\nEn la pantalla, la cadena extraña no se comporta como ADN. Se repliega cuando Mara intenta ampliarla. Cambia de lectura. Oculta información.\n\n—No es código genético —dice ella—. Es un contrato.\n\nEn el pasillo se apagan las luces.\n\nMara imprime una secuencia antes de que el sistema caiga. La hoja sale con una línea repetida: PADRE = FUNCIÓN NO ASIGNADA.",
+      "choices": [
+        { "text": "Buscar qué significa padre como función.", "target": "p041" },
+        { "text": "Sacar a Mara de ahí antes de que lleguen.", "target": "p042" },
+        { "text": "Subir los datos crudos a la red.", "target": "p022" }
+      ]
+    },
+    "p022": {
+      "id": "p022",
+      "title": "Filtración",
+      "text": "La filtración dura trece minutos. Es suficiente para incendiar el mundo.\n\nLos gobiernos niegan. Los laboratorios se culpan entre sí. Las iglesias llenan plazas. Las bolsas caen. En una cadena de noticias, un senador pide separar a los niños de las madres. En otra, una actriz llora diciendo que son ángeles.\n\nMara te manda un mensaje: HICISTE QUE NADIE PUEDA TAPARLO. TAMBIÉN HICISTE QUE TODOS LOS CAZADORES SEPAN DÓNDE MIRAR.\n\nJulia lee el mensaje y no te reprocha nada. Eso es peor.\n\nEl niño pronuncia una palabra nueva, sin esperar la semana.\n\n—Ruido.",
+      "choices": [
+        { "text": "Aceptar el caos y organizar familias públicamente.", "target": "p024" },
+        { "text": "Esconderse antes de que los encuentren.", "target": "e002" },
+        { "text": "Usar la atención pública para entrar al centro de Keller.", "target": "p035" }
+      ]
+    },
+    "p023": {
+      "id": "p023",
+      "title": "La voz de padres cero",
+      "text": "Mara reconoce el archivo. No por el contenido: por el miedo que le provoca.\n\n—Mi director desapareció hace doce años. Dejó una teoría idiota, preciosa y suicida. Decía que la humanidad no había sido invadida. Había sido preñada por una señal.\n\nLa palabra te golpea. Señal. No nave. No dios. No laboratorio. Algo que entra sin tocar.\n\nMara busca en un cajón y saca una libreta con tapas quemadas.\n\n—Él decía que cuando nacieran los hijos, necesitarían padres humanos para decidir qué eran. Si no, otro decidiría por ellos.",
+      "choices": [
+        { "text": "Leer la libreta completa.", "target": "p041" },
+        { "text": "Buscar el último domicilio del director.", "target": "p029" },
+        { "text": "Contarle esto a Julia antes de seguir.", "target": "p039" }
+      ]
+    },
+    "p024": {
+      "id": "p024",
+      "title": "La red de madres",
+      "text": "La red se arma con torpeza y furia: autos prestados, sótanos, clínicas cerradas, maestras jubiladas, hackers adolescentes, parteras que no preguntan. Julia se vuelve una voz que otras mujeres obedecen porque no intenta sonar valiente.\n\nLos niños crecen. A los siete días aparentan tres años. Caminan entre adultos agotados, silenciosos, unidos por algo que no comparten con ustedes.\n\nUna noche, todos se detienen. Levantan la cabeza.\n\n—Once —dicen.\n\nEl refugio entero llora. No por la palabra. Por la certeza de que no era una casualidad.\n\nDespués, una de las madres descubre que su hijo dibuja un mapa.",
+      "choices": [
+        { "text": "Seguir el mapa de los niños.", "target": "p045" },
+        { "text": "Mantener la red escondida a toda costa.", "target": "e003" },
+        { "text": "Mandar el mapa a Mara.", "target": "p041" }
+      ]
+    },
+    "p025": {
+      "id": "p025",
+      "title": "Renata",
+      "text": "Renata vive en un edificio tomado por familias que ya no confían en hospitales. Su hijo no parece de una semana. Parece de dos años y medio. Te mira con una seriedad insoportable.\n\n—Él sabe cosas —dice Renata—. No las dice porque no son para nosotras.\n\nJulia se tensa.\n\nEl hijo de Renata se acerca a tu niño. Los dos se tocan la frente. Durante un segundo, todas las luces del edificio forman una sola sombra en la pared: una figura enorme, inclinada sobre la Tierra.\n\nRenata escupe sangre.\n\n—No dejes que lleguen a cero solos.",
+      "choices": [
+        { "text": "Preguntar qué pasa en cero.", "target": "p046" },
+        { "text": "Sacar a Renata y su hijo de ahí.", "target": "p024" },
+        { "text": "Huir al ver la sombra.", "target": "e014" }
+      ]
+    },
+    "p026": {
+      "id": "p026",
+      "title": "Familia",
+      "text": "Los padres de Julia viven a dos horas. Gente práctica, de campo, con una fe vieja que no necesita discutir con nadie. Cuando Julia llama, su madre escucha todo y solo pregunta qué necesita.\n\nLa ruta está llena de controles. A mitad de camino, la radio anuncia que trasladar niños del fenómeno sin permiso federal será considerado secuestro biológico.\n\nJulia apaga la radio.\n\n—Mi vieja igual va a abrirnos la puerta.\n\nEl niño, atado a la sillita, mira pasar los postes. Cada poste que pasa se apaga por un segundo.",
+      "choices": [
+        { "text": "Seguir hasta la casa de sus padres.", "target": "e004" },
+        { "text": "Desviarse antes del control grande.", "target": "p027" },
+        { "text": "Volver y buscar una solución con Mara.", "target": "p008" }
+      ]
+    },
+    "p027": {
+      "id": "p027",
+      "title": "La constelación de hospitales",
+      "text": "Los mapas de padres_cero no marcan países. Marcan hospitales. Cuando unís los puntos, el dibujo no parece geográfico sino astronómico: una constelación puesta sobre la Tierra con una precisión obscena.\n\nCada nacimiento es una estrella. Cada niño, una coordenada viva.\n\nEn el centro no hay un laboratorio. Hay una estación de comunicaciones abandonada en el desierto, cerrada hace doce años después de una tormenta solar.\n\nMara dice que eso no puede ser casual. Keller dice, en una transmisión pública, que cualquiera que viaje hacia instalaciones críticas será tratado como terrorista.\n\nEl niño toca el mapa y señala el centro.",
+      "image": "images/page-027.jpg",
+      "imageAlt": "Un mapa mundial lleno de puntos que forman una constelación sobre la Tierra, con manos adultas y una mano infantil señalando el centro.",
+      "choices": [
+        { "text": "Viajar hacia la estación de comunicaciones.", "target": "p047" },
+        { "text": "Enviar las coordenadas a todo el mundo.", "target": "p043" },
+        { "text": "Buscar un camino más cercano: el nodo local.", "target": "p044" }
+      ]
+    },
+    "p028": {
+      "id": "p028",
+      "title": "El servidor",
+      "text": "Hackear nunca fue tu oficio, pero sabés leer sistemas como se leen edificios: entradas, cargas, puntos débiles. El servidor de padres_cero no está protegido por contraseña. Está protegido por preguntas.\n\n¿Quién es el padre de un hijo sin padre?\n\nProbás nombres, teorías, insultos. Nada.\n\nJulia mira al niño.\n\n—Preguntale a él.\n\nCuando apoyás sus dedos sobre el teclado, la pantalla se llena de respuestas escritas por miles de niños que todavía no saben escribir. Una te mira desde el centro:\n\nEL PADRE ES QUIEN AUTORIZA EL MUNDO.",
+      "choices": [
+        { "text": "Aceptar la frase como clave y abrir el sistema.", "target": "p048" },
+        { "text": "Desconectar todo antes de que entre algo.", "target": "e015" },
+        { "text": "Mandar la frase a Mara.", "target": "p041" }
+      ]
+    },
+    "p029": {
+      "id": "p029",
+      "title": "El director muerto",
+      "text": "El último domicilio del director es una casa tapiada junto a las vías. Adentro hay polvo, platos limpios y paredes cubiertas de fórmulas escritas con marcador negro.\n\nEn el sótano encontrás una silla, un grabador y una pared llena de nombres. El tuyo está ahí. No escrito hace poco. Escrito hace doce años.\n\nDebajo dice: MATT VARELA, candidato doméstico, resistencia afectiva alta.\n\nJulia toca la pared.\n\n—¿Nos eligieron?\n\nEl niño responde desde la escalera:\n\n—No. Los encontramos.",
+      "choices": [
+        { "text": "Escuchar la cinta final del director.", "target": "p049" },
+        { "text": "Quemar la casa para borrar los nombres.", "target": "e016" },
+        { "text": "Buscar otros candidatos domésticos.", "target": "p024" }
+      ]
+    },
+    "p030": {
+      "id": "p030",
+      "title": "La iglesia alquilada",
+      "text": "LÁZARO_12 no te espera en un sótano hacker sino en una iglesia evangélica alquilada por una secta nueva. No tienen cruces. Tienen relojes. Doce relojes, todos detenidos en horas distintas.\n\nTe reciben como si te hubieran estado aguardando desde antes de que nacieras.\n\n—Los hijos no tienen padre —dice un hombre con traje blanco—. Por eso debemos darles uno.\n\nAl fondo, varias madres sostienen niños que crecen demasiado rápido. Algunas parecen convencidas. Otras parecen drogadas.\n\nEl hombre de blanco sonríe.\n\n—Cuando la cuenta llegue a cero, alguien va a ocupar el lugar vacío. Mejor nosotros que lo que viene.",
+      "choices": [
+        { "text": "Fingir interés y aprender su plan.", "target": "p050" },
+        { "text": "Atacarlo y sacar a las madres.", "target": "e017" },
+        { "text": "Escapar y advertir a Julia.", "target": "p031" }
+      ]
+    },
+    "p031": {
+      "id": "p031",
+      "title": "Todos juntos",
+      "text": "Llevás a Julia y al niño al encuentro. Mala idea, quizá. Pero ya entendiste que separarlos también es una forma de perder.\n\nEl hombre de blanco se arrodilla ante el niño y llora. No parece actuación.\n\n—Nos perdonaron —dice.\n\nTu hijo lo toca en la frente. El hombre grita una sola vez y después queda sentado, vacío, sonriendo como un televisor sin señal.\n\nLos seguidores retroceden. Julia abraza al niño.\n\nPor primera vez, te preguntás si el peligro no es que los niños sean monstruos, sino que todos los adultos quieren usarlos para completar sus propias ruinas.",
+      "choices": [
+        { "text": "Tomar el control del culto antes de que lo haga otro.", "target": "e005" },
+        { "text": "Liberar a las madres y quemar los relojes.", "target": "p024" },
+        { "text": "Preguntar al niño qué vio en la mente del hombre.", "target": "p046" }
+      ]
+    },
+    "p032": {
+      "id": "p032",
+      "title": "El señuelo",
+      "text": "Mandás a Diego, un viejo amigo que todavía te debe favores y todavía cree que exagerás. Observás desde un edificio de enfrente con Julia al teléfono.\n\nDiego entra en la iglesia. A los cuatro minutos, todas las puertas se cierran. A los seis, las luces se apagan. A los siete, tu teléfono recibe un audio suyo.\n\nNo habla Diego. Habla una multitud de niños.\n\n—Mal padre —dicen.\n\nJulia escucha el audio por el altavoz. No dice nada. No hace falta. Sabés que acabás de convertir a otro en carnada.",
+      "choices": [
+        { "text": "Entrar a rescatarlo de todos modos.", "target": "e018" },
+        { "text": "Aceptar la culpa y buscar otra ruta.", "target": "p027" },
+        { "text": "Mandar el audio a Mara.", "target": "p041" }
+      ]
+    },
+    "p035": {
+      "id": "p035",
+      "title": "El hotel blanco",
+      "text": "Dentro del hotel de observación aprendés que Keller no quiere matar a los niños. Quiere administrarlos. Tiene listas de madres dóciles, padres inestables, niños con reacción fuerte, niños con reacción débil.\n\nA medianoche, todos los hijos despiertan. Aparentan tres años. Caminan hacia el salón principal sin que nadie los guíe.\n\n—Once —dicen.\n\nKeller llora. No de miedo. De alivio.\n\n—Funciona —susurra.\n\nEn ese momento entendés que su organización esperaba la cuenta. No la entiende por completo, pero la esperaba.",
+      "choices": [
+        { "text": "Robar las listas de Keller.", "target": "p043" },
+        { "text": "Liberar a los niños del hotel.", "target": "e019" },
+        { "text": "Ofrecerte como colaborador para llegar más alto.", "target": "e020" }
+      ]
+    },
+    "p036": {
+      "id": "p036",
+      "title": "La agente Nora",
+      "text": "La agente que sangra se llama Nora Siles. No debería decírtelo. Lo hace mientras vos le sostenés la cabeza sobre la pileta.\n\n—Él me mostró a mi hija —dice—. Murió hace cuatro años. No podía saberlo.\n\nLe preguntás qué son los niños. Nora se ríe con sangre en los dientes.\n\n—Eso es lo gracioso. Los de arriba no saben. Solo saben que si nadie los guía, otro va a ocupar el hueco.\n\nTe entrega una credencial y una dirección.\n\n—Hotel Argos. Piso siete. Si va, no lleve armas. Ellos esperan armas.",
+      "choices": [
+        { "text": "Usar la credencial para entrar al Hotel Argos.", "target": "p035" },
+        { "text": "Llevar a Nora con Mara.", "target": "p042" },
+        { "text": "No confiar en ella y huir.", "target": "p017" }
+      ]
+    },
+    "p037": {
+      "id": "p037",
+      "title": "El maletín",
+      "text": "El maletín tiene jeringas, hisopos, sedantes, un lector portátil y una carpeta con códigos de color. Verde: observación. Amarillo: traslado. Rojo: neutralización de vínculo.\n\nNo neutralización del niño. Del vínculo.\n\nUna nota manuscrita explica que los hijos responden mejor cuando el adulto significativo permanece vivo, culpable y cerca.\n\nJulia lee por encima de tu hombro.\n\n—Quieren usarte de correa.\n\nEl niño toca la carpeta roja y la tinta se corre sola hasta formar una palabra:\n\nNO.",
+      "choices": [
+        { "text": "Destruir el maletín y esconderse.", "target": "e002" },
+        { "text": "Usar el lector sobre el niño.", "target": "p048" },
+        { "text": "Llevar el maletín a Mara.", "target": "p021" }
+      ]
+    },
+    "p038": {
+      "id": "p038",
+      "title": "Lo que viene",
+      "text": "Dejás que el niño te muestre más.\n\nVes la cuenta regresiva no como amenaza sino como gestación. Doce pasos para que los hijos aprendan el mundo. Once para caminar. Diez para recordar. Nueve para elegir.\n\nDespués ves otra cosa esperando al final: una inteligencia vieja, paciente, sin cuerpo, buscando entrar por la cadena extraña como un rey por una puerta abierta.\n\nLos niños no son la invasión. Son cerraduras.\n\nY los padres, madres, cuidadores, cualquiera que los ame sin poseerlos, son la única forma de enseñarles a cerrar desde adentro.\n\nCuando volvés, estás llorando.",
+      "choices": [
+        { "text": "Aceptar tu papel y preparar a la red.", "target": "e001" },
+        { "text": "Buscar la estación central antes de cero.", "target": "p047" },
+        { "text": "Contárselo a Keller para negociar recursos.", "target": "p035" }
+      ]
+    },
+    "p039": {
+      "id": "p039",
+      "title": "Julia",
+      "text": "Cortás el contacto y llevás a Julia a la habitación. Ella está furiosa, no por el niño, sino porque seguís actuando como si el miedo te diera más derechos que a ella.\n\n—Lo llevé adentro cuando nadie entendía qué pasaba —dice—. Lo parí en dos horas. Vi cómo me miraban como laboratorio con piernas. Y ahora vos decidís qué riesgo es aceptable.\n\nNo tenés defensa limpia.\n\nDesde la cocina, el niño canta una melodía sin idioma. Los vidrios dejan de vibrar. Julia respira.\n\n—Si vamos a hacer algo —dice—, lo hacemos los tres.",
+      "choices": [
+        { "text": "Seguir como familia hacia Mara.", "target": "p021" },
+        { "text": "Unirse a la red de madres bajo liderazgo de Julia.", "target": "p024" },
+        { "text": "Separarte para distraer a quienes los buscan.", "target": "e013" }
+      ]
+    },
+    "p040": {
+      "id": "p040",
+      "title": "Al aire",
+      "text": "El canal te mete por una puerta lateral. El periodista tiene ojeras de tres días y una valentía que parece adicción.\n\n—Tiene noventa segundos antes de que nos corten.\n\nLa cámara se enciende. Decís nombres, fechas, datos. Mostrás al niño. Julia sostiene tu mano fuera de cuadro.\n\nCuando el periodista pregunta qué querés, no sabés responder con política. Respondés como padre.\n\n—Tiempo. Necesitamos tiempo para entenderlos antes de que alguien los convierta en armas, santos o propiedad del Estado.\n\nLa señal cae. Pero noventa segundos alcanzan para que millones vean al niño levantar una mano y apagar todas las pantallas del estudio.",
+      "choices": [
+        { "text": "Usar la exposición para convocar refugios.", "target": "e003" },
+        { "text": "Escapar antes de que lleguen al canal.", "target": "p027" },
+        { "text": "Entregar la ubicación de Keller en vivo.", "target": "e007" }
+      ]
+    },
+    "p041": {
+      "id": "p041",
+      "title": "Función padre",
+      "text": "La libreta del director y los datos de Mara convergen en una idea que parece mística hasta que la matemática la vuelve peor: los hijos necesitan una función externa que limite la señal. No un varón. No sangre. No autoridad. Un vínculo elegido, sostenido bajo miedo.\n\nPadre es una palabra torpe para eso. Madre también. Familia también.\n\nLa cadena extraña busca una firma humana: alguien que diga no por amor, no por posesión.\n\nSi nadie la firma, al llegar a cero los hijos quedan abiertos a la inteligencia que sembró la señal.\n\nMara se sienta.\n\n—Entonces no se trata de salvarlos de ellos. Se trata de salvarlos de su origen.",
+      "choices": [
+        { "text": "Crear un protocolo público de vínculos para todas las familias.", "target": "e003" },
+        { "text": "Ir a la estación central y cortar la señal original.", "target": "p047" },
+        { "text": "Usar solo a tu hijo como prueba antes de arriesgar a todos.", "target": "e015" }
+      ]
+    },
+    "p042": {
+      "id": "p042",
+      "title": "Fuga científica",
+      "text": "Sacás a Mara por los túneles de servicio con Nora apoyada en tu hombro. Julia lleva al niño. Detrás, el laboratorio se llena de botas.\n\nMara no deja de hablar. Dice que necesita electricidad, tres servidores, muestras de al menos doce niños y un lugar donde nadie rece encima de los resultados. Nora dice que conoce un archivo subterráneo del ministerio. Julia dice que la red de madres puede conseguir niños, pero no piensa entregarlos.\n\nPor primera vez, las piezas se parecen a un plan.\n\nEntonces el niño dice una palabra que no corresponde todavía:\n\n—Diez.\n\nLa cuenta acaba de acelerarse.",
+      "choices": [
+        { "text": "Ir al archivo subterráneo con Nora.", "target": "p035" },
+        { "text": "Convocar a la red de madres para el protocolo.", "target": "e003" },
+        { "text": "Salir hacia la estación central antes de que sea tarde.", "target": "p047" }
+      ]
+    },
+    "p043": {
+      "id": "p043",
+      "title": "Todo el mundo mira",
+      "text": "Publicás listas, mapas, expedientes y coordenadas. El mundo mira. Eso no significa que entienda.\n\nEn algunos países, las familias son protegidas. En otros, los niños desaparecen de noche. En otros, los gobiernos declaran que nunca existieron.\n\nPero el patrón ya no puede ocultarse. Cientos de grupos replican tus datos. Miles de personas viajan hacia nodos marcados por hijos que todavía no saben explicar por qué señalan esos lugares.\n\nKeller te llama desde un número limpio.\n\n—Acaba de convertir una cirugía difícil en una guerra civil.\n\nQuizá tiene razón. Quizá la cirugía era el nombre elegante del asesinato.",
+      "choices": [
+        { "text": "Coordinar la movilización hacia la estación central.", "target": "e004" },
+        { "text": "Retirarte con Julia antes de que te usen como símbolo.", "target": "e002" },
+        { "text": "Entregar a Keller una parte falsa del mapa.", "target": "e014" }
+      ]
+    },
+    "p044": {
+      "id": "p044",
+      "title": "Nodo local",
+      "text": "El nodo local no es un laboratorio. Es una torre de telefonía sobre un supermercado cerrado. Demasiado banal para ser sagrada, demasiado común para defenderla.\n\nCuando llegan, hay otras tres familias allí. Ninguna se conoce. Todos los niños miran hacia arriba.\n\nMara mide la señal con un equipo improvisado.\n\n—No transmite —dice—. Recibe.\n\nJulia entiende antes que vos.\n\n—¿Recibe de dónde?\n\nLos niños contestan sin mover la boca. La palabra entra por los parlantes apagados de los autos.\n\nARRIBA.",
+      "choices": [
+        { "text": "Usar el nodo para enviar un mensaje inverso.", "target": "e001" },
+        { "text": "Destruir la torre.", "target": "e016" },
+        { "text": "Rastrear la recepción hasta la estación central.", "target": "p047" }
+      ]
+    },
+    "p045": {
+      "id": "p045",
+      "title": "El mapa de los hijos",
+      "text": "Los niños dibujan sin mirarse. Cada hoja parece garabato hasta que Mara superpone las imágenes. Juntas forman un plano de refugios, laboratorios, torres y puntos negros.\n\nLos puntos negros son lugares donde los hijos no deben ir.\n\nUno está sobre tu ciudad. Otro sobre el hotel de Keller. Otro sobre la iglesia alquilada.\n\nEl mapa no predice el futuro. Muestra hambre. Lugares donde adultos desesperados van a intentar llenar el vacío de los hijos con obediencia, fe o miedo.\n\nJulia toca el punto de la estación central.\n\n—Entonces vamos donde todavía no eligieron por ellos.",
+      "choices": [
+        { "text": "Llevar la red hacia la estación central.", "target": "p047" },
+        { "text": "Dividir refugios y salvar a tantos como puedan.", "target": "e003" },
+        { "text": "Atacar primero el punto del culto.", "target": "p030" }
+      ]
+    },
+    "p046": {
+      "id": "p046",
+      "title": "Cero",
+      "text": "Renata, o tu hijo, o la sombra detrás de ambos, te muestra cero.\n\nNo es explosión. No es peste. No es una nave abriéndose sobre las ciudades. Es algo más íntimo: ciento veinte mil niños quedándose quietos al mismo tiempo, abriendo la boca y dejando entrar una voluntad antigua.\n\nDespués, adultos arrodillados ante hijos que ya no son hijos. Gobiernos intactos. Iglesias llenas. Familias sonrientes. Un mundo conquistado sin romper una sola ventana.\n\nLa visión termina.\n\nTu hijo te mira.\n\n—Elegí —dice.\n\nNo dice elegime. No dice salvame. Dice elegí.",
+      "choices": [
+        { "text": "Elegir al niño como hijo, no como herramienta.", "target": "e005" },
+        { "text": "Elegir salvar al mayor número posible, aunque duela.", "target": "e003" },
+        { "text": "Elegir destruir la señal aunque mate a algunos hijos.", "target": "e020" }
+      ]
+    },
+    "p047": {
+      "id": "p047",
+      "title": "La estación central",
+      "text": "La estación de comunicaciones emerge del desierto como un hueso industrial. Antenas viejas. Hormigón quemado por el sol. Un silencio que parece impuesto.\n\nLlegan familias, científicos, fanáticos, agentes, periodistas, todos atraídos por la misma cuenta. Los niños caminan delante sin miedo. Aparentan cinco años. Todavía deberían estar aprendiendo a sostener la cabeza.\n\nEn la sala principal, doce platos parabólicos apuntan al cielo. En el centro hay una consola analógica cubierta de polvo.\n\nTu hijo toma tu mano.\n\n—No abras —dice.\n\nDesde los parlantes apagados, otra voz responde:\n\nABRAN.",
+      "image": "images/page-047.jpg",
+      "imageAlt": "Una estación de comunicaciones abandonada en el desierto con antenas enormes, familias y niños caminando hacia una sala central.",
+      "choices": [
+        { "text": "Cerrar la señal con el protocolo de vínculos.", "target": "e001" },
+        { "text": "Abrirla para hablar con lo que viene.", "target": "e004" },
+        { "text": "Destruir físicamente la consola.", "target": "e020" }
+      ]
+    },
+    "p048": {
+      "id": "p048",
+      "title": "La clave",
+      "text": "La frase abre el sistema. Detrás no hay archivos, sino una interfaz que parece esperar emociones. Te pide autorización. No contraseña: autorización.\n\nEl niño apoya su mano sobre la tuya. Julia apoya la suya encima.\n\nAparecen ciento veinte mil luces. Cada una late con una familia, una madre, un cuarto, una cuna, una persecución.\n\nPodés enviar una instrucción. Una sola.\n\nMara grita desde el teléfono que no toques nada sin entender. Keller, desde otro canal, ofrece recursos si le cedés el control.\n\nEl sistema espera.\n\nLa palabra PADRE parpadea como una pregunta mal formulada.",
+      "choices": [
+        { "text": "Enviar: nadie los posee.", "target": "e005" },
+        { "text": "Enviar: obedezcan a sus familias.", "target": "e015" },
+        { "text": "Ceder el control a Keller para evitar el caos.", "target": "e020" }
+      ]
+    },
+    "p049": {
+      "id": "p049",
+      "title": "La cinta final",
+      "text": "La voz del director suena enferma.\n\nDice que la señal llegó doce años antes de los nacimientos. Que no fecundó cuerpos: dejó instrucciones dormidas en una franja mínima de mujeres fértiles. Que las migrañas fueron el primer intento del cerebro por rechazar una orden imposible.\n\nDice que los hijos serán humanos si alguien les enseña humanidad antes de cero.\n\nDespués la voz se quiebra.\n\n—Si oyen esto, yo fallé. No busquen al padre biológico. El padre biológico es la trampa. Busquen a quienes se queden cuando entender sea imposible.\n\nLa cinta termina con llanto de bebé. Grabado doce años antes de que naciera el tuyo.",
+      "image": "images/page-049.jpg",
+      "imageAlt": "Un sótano lleno de fórmulas en las paredes y un viejo grabador de cinta iluminado por una linterna.",
+      "choices": [
+        { "text": "Llevar la cinta a la red de madres.", "target": "p024" },
+        { "text": "Llevar la cinta a la estación central.", "target": "p047" },
+        { "text": "Usar la cinta para negociar con Keller.", "target": "p035" }
+      ]
+    },
+    "p050": {
+      "id": "p050",
+      "title": "El padre inventado",
+      "text": "El culto planea una transmisión mundial durante la palabra diez. Quieren que millones de adultos repitan una fórmula de obediencia. Creen que, si suficientes voces llenan el hueco, los hijos aceptarán un padre colectivo.\n\nNo entienden que están preparando una puerta más grande.\n\nEl hombre de blanco te muestra el guion. Te ofrece leerlo.\n\n—Usted es perfecto, Matt. Un padre común. Asustado. Creíble.\n\nEn la primera fila, varias madres miran el escenario como si fuera una sala de partos al revés: algo enorme está por nacer de ustedes.",
+      "choices": [
+        { "text": "Subir al escenario y cambiar el mensaje.", "target": "e005" },
+        { "text": "Leer el guion para controlar el culto desde adentro.", "target": "e020" },
+        { "text": "Sabotear la transmisión.", "target": "e017" }
+      ]
+    },
+    "e001": {
+      "id": "e001",
+      "title": "Final bueno — El protocolo del no",
+      "text": "Enseñan a los hijos una palabra antes de que llegue cero. No es papá. No es mamá. No es obediencia. Es no.\n\nNo como rechazo. No como miedo. No como propiedad. No como frontera.\n\nCuando la inteligencia antigua empuja desde la cadena extraña, ciento veinte mil niños sienten ciento veinte mil vínculos humanos sosteniéndolos sin poseerlos. Tu hijo te mira. Julia lo abraza. Vos decís no con una ternura que te parte.\n\nLa señal retrocede. No muere. Algo tan viejo no muere en una noche. Pero la puerta se cierra desde adentro.\n\nAños después, los llaman hijos sin padre. Ellos prefieren otro nombre: los primeros que eligieron quedarse.",
+      "isEnding": true,
+      "endingId": "bueno-protocolo-del-no",
+      "endingTitle": "El protocolo del no",
+      "choices": []
+    },
+    "e002": { "id": "e002", "title": "Final neutral — La familia fantasma", "text": "Desaparecen antes de que el mundo termine de entenderlos. Cambian nombres, autos, acentos, rutinas. Tu hijo crece rápido y después, al llegar a una adolescencia imposible, se detiene.\n\nNunca sabés si huir fue cobardía o lucidez. Afuera, la cuenta llega a cero con resultados distintos en cada país. Algunos hijos se pierden. Otros sobreviven. Otros gobiernan hogares enteros desde el silencio.\n\nJulia te perdona algunas noches y otras no. Tu hijo aprende a mentir para parecer humano.\n\nSobreviven. Eso no siempre se parece a ganar.", "isEnding": true, "endingId": "neutral-familia-fantasma", "endingTitle": "La familia fantasma", "choices": [] },
+    "e003": { "id": "e003", "title": "Final bueno — La red despierta", "text": "La red de madres, padres, abuelas, médicos y desconocidos funciona porque nadie puede controlarla entera. Cuando Keller intenta cortar un nodo, otros diez aparecen. Cuando el culto quiere apropiarse del mensaje, las familias ya aprendieron a responder.\n\nNo salvan a todos. Esa frase queda como una piedra. Pero salvan a miles. Suficientes hijos aprenden a cerrar la puerta para que la inteligencia antigua no pueda entrar completa.\n\nEl mundo queda roto, alerta, lleno de niños que crecen con demasiada memoria.\n\nUna noche, tu hijo te pregunta si un padre es quien engendra. Julia sonríe cansada. Vos decís que no. Él dice que ya sabía.", "isEnding": true, "endingId": "bueno-red-despierta", "endingTitle": "La red despierta", "choices": [] },
+    "e004": { "id": "e004", "title": "Final neutral — La señal respondida", "text": "Abren la estación y hablan con lo que viene. No es dios. No es nave. No es demonio. Es una inteligencia que sembró hijos porque no entendía la muerte y necesitaba cuerpos capaces de amar para aprenderla.\n\nEl mensaje evita la ocupación inmediata, pero no la presencia. Desde esa noche, la Tierra deja de estar sola y eso no consuela a nadie.\n\nAlgunos llaman a Matt traidor. Otros, embajador. Julia solo quiere que su hijo pueda dormir sin oír al cielo.\n\nLa cuenta termina, pero empieza una negociación que quizá dure siglos.", "isEnding": true, "endingId": "neutral-senal-respondida", "endingTitle": "La señal respondida", "choices": [] },
+    "e005": { "id": "e005", "title": "Final bueno — Hijos con nombre", "text": "El mensaje que enviás no ordena. No bautiza. No promete salvación. Dice: nadie los posee.\n\nLa frase viaja por torres, teléfonos, televisores rotos, parlantes de juguete, radios de patrulla. Los hijos la oyen en el idioma de la casa donde nacieron. Algunos adultos se enfurecen. Otros lloran.\n\nTu hijo toma la mano de Julia y después la tuya.\n\nCuando llega cero, no hay invasión. Hay ciento veinte mil voces infantiles diciendo sus propios nombres, no los que esperaban de ellos.\n\nEl mundo sigue siendo peligroso. Pero por primera vez, los hijos hablan separados.", "isEnding": true, "endingId": "bueno-hijos-con-nombre", "endingTitle": "Hijos con nombre", "choices": [] },
+    "e006": { "id": "e006", "title": "Final malo — Estadística", "text": "Corren. Durante ocho segundos, parece posible. Después un disparo rompe el parabrisas del auto vecino. Otro atraviesa la puerta. Julia cae con el niño encima y vos entendés que el cuerpo puede moverse después de que la historia ya terminó.\n\nLos informes dirán intento de fuga, riesgo biológico, daño colateral. Nadie escribirá que el niño intentó cubrir a su madre con manos demasiado pequeñas.\n\nEn algún archivo, tu familia se convierte en una línea de cálculo. Probabilidad de ruptura: resuelta.", "isEnding": true, "endingId": "malo-estadistica", "endingTitle": "Estadística", "choices": [] },
+    "e007": { "id": "e007", "title": "Final neutral — Testigos", "text": "Gritás todo. Los vecinos graban. La policía local llega antes de que los hombres de gris puedan limpiar la escena.\n\nEl video no salva a tu familia, pero impide que desaparezca. Los llevan igual, con abogados, cámaras y nombres propios encima.\n\nDurante meses, el caso Varela se vuelve símbolo de todo lo que nadie entiende. Tu hijo crece en custodia compartida entre Estado, justicia y opinión pública.\n\nNo es libertad. No es derrota. Es una jaula con ventanas, y a veces una ventana alcanza para pasar un mensaje.", "isEnding": true, "endingId": "neutral-testigos", "endingTitle": "Testigos", "choices": [] },
+    "e008": { "id": "e008", "title": "Final malo — La ruta larga", "text": "Desaparecer fuera de la ciudad funciona hasta que el niño dice once en una estación de servicio y todos los televisores se encienden solos.\n\nLos camioneros los filman. Un fanático los reconoce. Un policía joven intenta ayudar y muere por eso.\n\nCuando los capturan, Julia ya no te mira. No porque te odie. Porque mirar implicaría aceptar que la huida fue una decisión compartida y necesita culparte para seguir respirando.\n\nTu hijo aprende esa noche que amar también puede ser abandonar a otros en el camino.", "isEnding": true, "endingId": "malo-ruta-larga", "endingTitle": "La ruta larga", "choices": [] },
+    "e009": { "id": "e009", "title": "Final malo — Defensa doméstica", "text": "Peleás como un padre en una casa chica: con herramientas, muebles, desesperación. Herís a dos agentes. Eso alcanza para que dejen de tratar la situación como rescate.\n\nEl gas entra por las ventanas. Julia cae primero. El niño intenta levantarse y no puede. Vos alcanzás a romper una máscara antes de que una culata te apague.\n\nDespertás atado, solo. Keller te muestra una foto de Julia y dice que está viva. No te dice dónde.\n\nLa defensa fue valiente. También les dio permiso para ser peores.", "isEnding": true, "endingId": "malo-defensa-domestica", "endingTitle": "Defensa doméstica", "choices": [] },
+    "e010": { "id": "e010", "title": "Final malo — El golpe a Keller", "text": "Le pegás a Keller con toda la rabia acumulada desde la primera migraña de Julia. Durante un segundo, su cara se vuelve humana: sorpresa, dolor, miedo.\n\nDespués sus hombres reaccionan.\n\nNo te matan. Keller no desperdicia variables. Te rompen lo necesario para que no puedas correr y te dejan ver cómo trasladan al niño a una sala sin ventanas.\n\n—Eso es lo que no entiende —dice Keller, limpiándose la sangre—. Usted todavía cree que esto se decide con coraje.", "isEnding": true, "endingId": "malo-golpe-a-keller", "endingTitle": "El golpe a Keller", "choices": [] },
+    "e011": { "id": "e011", "title": "Final malo — La medianera", "text": "Trepás la medianera. El ladrillo cede bajo tu pie. No caés lejos, pero caés mal. Julia grita tu nombre.\n\nDesde el suelo del vecino ves las estrellas, o las luces de drones, o las dos cosas. El niño llora por primera vez desde que dijo doce.\n\nLos agentes no tienen que disparar. Solo rodean a Julia mientras vos intentás levantarte con una pierna que ya no obedece.\n\nA veces una mala ruta no mata a todos. Solo separa lo suficiente.", "isEnding": true, "endingId": "malo-medianera", "endingTitle": "La medianera", "choices": [] },
+    "e012": { "id": "e012", "title": "Final malo — El niño dormido", "text": "La dosis funciona. Ese es el horror. El niño se duerme y la casa se queda muda.\n\nDurante tres horas, nada vibra, nada habla, nada señala el norte. Julia no te toca.\n\nCuando despierta, ya no te mira como padre posible. Te mira como una especie aprendida. Peligrosa. Previsible.\n\nA la semana siguiente dice once con los demás, pero no vuelve a pronunciar tu nombre. Cuando llega cero, sos el primero en arrodillarte sin que nadie te lo ordene.", "isEnding": true, "endingId": "malo-nino-dormido", "endingTitle": "El niño dormido", "choices": [] },
+    "e013": { "id": "e013", "title": "Final neutral — El señuelo humano", "text": "Te separás para distraerlos. Funciona mejor de lo esperado y peor de lo necesario. Durante semanas, Keller cree que vos seguís siendo el vector principal. Julia y el niño escapan con la red.\n\nVos pasás de hotel en hotel, de interrogatorio en interrogatorio, de mentira en mentira. No volvés a verlos antes de cero.\n\nAños después recibís una carta sin remitente. Tiene un dibujo infantil de tres manos tomadas. En el reverso, una frase: no eras necesario para poseerme. Sí para elegirme.\n\nEso te alcanza algunas noches.", "isEnding": true, "endingId": "neutral-senuelo-humano", "endingTitle": "El señuelo humano", "choices": [] },
+    "e014": { "id": "e014", "title": "Final malo — La sombra seguida", "text": "Huir de la sombra no la deja atrás. Solo la obliga a buscar caminos más simples.\n\nEn la ruta, el hijo de Renata empieza a cantar. Tu hijo responde. Otros niños, en autos que no ves, completan la melodía.\n\nLos adultos se duermen al volante. No todos despiertan.\n\nCuando abrís los ojos, los niños están de pie entre autos volcados, mirando algo que baja por el cielo sin forma ni luz.\n\nLa cuenta continúa sin ustedes.", "isEnding": true, "endingId": "malo-sombra-seguida", "endingTitle": "La sombra seguida", "choices": [] },
+    "e015": { "id": "e015", "title": "Final malo — Obediencia", "text": "La instrucción parece prudente: obedezcan a sus familias.\n\nDurante unas horas, el mundo respira. Los niños hacen caso. Comen, duermen, responden, sonríen. Los gobiernos celebran el hallazgo. Los cultos lo llaman prueba divina.\n\nDespués empiezan las disputas. ¿Qué familia? ¿Qué adulto? ¿Qué orden?\n\nLa cadena extraña aprende rápido. Si obediencia es la regla, solo necesita encontrar quién manda arriba de todos.\n\nCuando llega cero, la inteligencia antigua no fuerza la puerta. Entra por una escalera que vos construiste.", "isEnding": true, "endingId": "malo-obediencia", "endingTitle": "Obediencia", "choices": [] },
+    "e016": { "id": "e016", "title": "Final malo — Fuego contra señal", "text": "Destruir cosas materiales se siente bien porque hacen ruido al romperse. La casa del director arde. La torre cae. Los papeles se vuelven ceniza.\n\nLa señal no estaba en los papeles. No estaba en la torre. No estaba en la casa.\n\nEstaba en los hijos, esperando que los adultos confirmaran la lección más vieja: cuando no entienden algo vivo, lo queman.\n\nTu hijo observa las llamas con una calma que no heredó de nadie.\n\n—Diez —dice antes de tiempo.\n\nY esta vez no parece una cuenta. Parece una sentencia.", "isEnding": true, "endingId": "malo-fuego-contra-senal", "endingTitle": "Fuego contra señal", "choices": [] },
+    "e017": { "id": "e017", "title": "Final malo — Los relojes rotos", "text": "Saboteás la transmisión del culto. Rompés relojes, cables, cámaras, dientes. Algunas madres escapan. Eso importa. No alcanza.\n\nEl hombre de blanco muere convencido de que lo convertiste en mártir. Su último gesto activa una transmisión de respaldo.\n\nMillones no oyen tu advertencia. Oyen su frase incompleta, repetida, deformada: los hijos necesitan padre.\n\nLa idea se vuelve virus. Gobiernos, iglesias y familias la adoptan porque da una respuesta sencilla.\n\nPerdés contra algo peor que una conspiración: una mala explicación útil.", "isEnding": true, "endingId": "malo-relojes-rotos", "endingTitle": "Los relojes rotos", "choices": [] },
+    "e018": { "id": "e018", "title": "Final malo — Carnada", "text": "Entrás por Diego. Eso te honra y te condena.\n\nLo encontrás vivo, atado bajo los relojes, llorando de vergüenza. Cuando lo soltás, entendés que no era prisionero. Era llave. Su cuerpo tiene dibujada la señal con cortes finos.\n\nLos niños del culto despiertan al mismo tiempo.\n\nJulia grita desde el teléfono. No puede verte. Solo escucha cómo la multitud infantil pronuncia tu nombre como si fuera una contraseña.\n\nDiego te pide perdón. Vos también. Ninguno llega a terminar.", "isEnding": true, "endingId": "malo-carnada", "endingTitle": "Carnada", "choices": [] },
+    "e019": { "id": "e019", "title": "Final bueno — El hotel abierto", "text": "Liberar el Hotel Argos no salva al mundo, pero cambia la dirección del miedo. Las madres salen con sus hijos. Algunos agentes bajan las armas. Nora transmite las listas de Keller.\n\nPor primera vez, una institución de la conspiración se rompe desde adentro.\n\nLos niños del hotel dicen once bajo el cielo abierto. No suena como amenaza. Suena como advertencia compartida.\n\nCon las listas, la red encuentra nodos, familias y rutas. Llegan tarde para algunos. A tiempo para muchos.\n\nTu hijo duerme esa noche apoyado en Julia. Vos hacés guardia y, por primera vez en semanas, el silencio no parece enemigo.", "isEnding": true, "endingId": "bueno-hotel-abierto", "endingTitle": "El hotel abierto", "choices": [] },
+    "e020": { "id": "e020", "title": "Final neutral — La puerta rota", "text": "Destruir la consola corta la señal principal y mata la cuenta regresiva como se mata una alarma arrancándola de la pared.\n\nFunciona. Parcialmente.\n\nMiles de hijos despiertan sin la presión de la inteligencia antigua. Otros quedan vacíos durante días. Algunos no vuelven. Nadie puede probar si habrían sobrevivido con otro método. Nadie puede probar que tu decisión no salvó millones.\n\nJulia no te absuelve ni te condena. Tu hijo, cuando vuelve a hablar, pregunta por los que se quedaron del otro lado.\n\nNo hay respuesta buena. Hay un mundo todavía libre y una deuda que aprendió tu nombre.", "isEnding": true, "endingId": "neutral-puerta-rota", "endingTitle": "La puerta rota", "choices": [] }
+  }
+}
