@@ -35,6 +35,12 @@ Reglas:
 - Estado: página aprobada sin imagen.
 - `imageAlt` registrado en `adventure.json`: mesa de rol interrumpida en un quincho-depósito tras una escena de fantasía con túnel de raíces, dados, hojas, latas y pantalla de master frente a Pablo.
 
+### p004 — La cortina del patio
+
+- Imagen: no declarada por ahora.
+- Estado: página escrita según indicación del autor, sin imagen.
+- `imageAlt` registrado en `adventure.json`: grupo mirando desde una ventana alta del quincho hacia el patio, mientras a través de una ventana opuesta se ve al abuelo de Pablo saliendo a una nevada imposible.
+
 ### Momento futuro: Ford Falcon
 
 - Archivo esperado: por definir cuando se apruebe la página.
