@@ -12,7 +12,8 @@ Las imágenes fueron generadas localmente y convertidas a JPG en `work/hijos-sin
 
 - Archivo esperado: `images/cover.jpg`
 - Estado: generada localmente como `work/hijos-sin-padre-images/cover.jpg`; pendiente de subida binaria al repo.
-- Prompt: portada editorial vertical para “Hijos sin padre”: Matt de pie en una cocina nocturna, Julia agotada al fondo, un niño pequeño de mirada demasiado adulta en primer plano, pantallas y mapas con una cuenta regresiva insinuada, atmósfera de conspiración global y horror familiar. Estilo de grabado fantástico sepia, achurado denso, alto contraste, aire de librojuego clásico.
+- Nota: la portada vigente fue regenerada para conversar con las otras portadas del sitio: formato de librojuego vintage, papel envejecido, cabecera roja, título serif grande, marco central magenta/azul y arte interno en grabado sepia.
+- Prompt: portada vertical para “Hijos sin padre”, inspirada en las portadas existentes de la colección: cubierta de librojuego español vintage con banner superior rojo “ELIGE TU PROPIA AVENTURA”, título dominante “HIJOS SIN PADRE”, línea de autor “WALTER SCHLOFF”, subtítulo “UNA NOVELA INTERACTIVA DE ELECCIONES Y CONSECUENCIAS” y lema inferior “TUS DECISIONES. TU DESTINO.” En la ilustración central, Matt aparece en una cocina o estudio atiborrado de mapas, expedientes médicos, pantallas y diagramas satelitales; Julia está agotada al fondo; un niño de mirada demasiado adulta mira hacia afuera; detrás se insinúan una cuenta regresiva, 120.000 puntos enlazados y una conspiración global. Estética de grabado sepia, achurado denso, alto contraste, horror familiar y ciencia ficción.
 
 ## Ilustraciones internas
 
