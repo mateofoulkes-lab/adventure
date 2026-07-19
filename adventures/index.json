@@ -35,6 +35,18 @@
       "publicationStatus": "published",
       "order": 3,
       "accentColor": "#5e2f22"
+    },
+    {
+      "id": "protocolo-castle",
+      "title": "Protocolo Castle",
+      "author": "Walter Schloff",
+      "summary": "Una cita en el penthouse de un magnate tecnológico se convierte en una carrera contra un sistema de seguridad que parece saber quién sos antes que vos.",
+      "path": "adventures/protocolo-castle/adventure.json",
+      "cover": "adventures/protocolo-castle/images/cover.jpg",
+      "genre": "Thriller tecnológico / Ciencia ficción",
+      "publicationStatus": "published",
+      "order": 4,
+      "accentColor": "#0b6574"
     }
   ]
 }

@@ -1,0 +1,454 @@
+{
+  "id": "protocolo-castle",
+  "title": "Protocolo Castle",
+  "author": "Walter Schloff",
+  "summary": "Una cita en el penthouse de un magnate tecnológico se convierte en una carrera contra un sistema de seguridad que parece saber quién sos antes que vos.",
+  "cover": "images/cover.jpg",
+  "version": "1.0.0",
+  "genre": "Thriller tecnológico / Ciencia ficción",
+  "startPage": "p001",
+  "totalEndings": 8,
+  "pages": {
+    "p001": {
+      "id": "p001",
+      "title": "El taxi sin conductor",
+      "text": "El taxi avanza por la ciudad sin nadie al volante. En el asiento trasero, Emrys Vernon acomoda el saco y mira por la ventanilla como si viajar en un vehículo autónomo fuera la cosa más normal del mundo. Para él lo es. Es el fundador de Wizard Tech y todo el auto lleva su marca.\n\n—No conocí nunca a una mujer que no me reconociera —dice.\n\nSonreís. Tu vestido negro es sencillo, aunque elegiste cada detalle con cuidado. En el bar, otras mujeres se disputaban su atención. Vos hiciste lo contrario: pareciste no saber quién era. Funcionó.\n\nEmrys espera una respuesta. Todavía cree que esta cita fue idea suya.",
+      "image": "images/page-001.jpg",
+      "imageAlt": "Eva y Emrys viajan de noche en el asiento trasero de un taxi autónomo.",
+      "choices": [
+        {"text": "Seguirle el juego", "target": "p002"},
+        {"text": "Preguntarle quién era antes de Wizard Tech", "target": "p003"}
+      ]
+    },
+    "p002": {
+      "id": "p002",
+      "title": "Una persona normal",
+      "text": "—Supongo que no estoy muy al tanto del mundo empresarial —decís.\n\nEmrys se ríe, aliviado. Te cuenta que casi no sale, que trabaja demasiado y que le cuesta nombrar algo que no tenga relación con su empresa. Después de pensarlo admite que, de chico, pasaba las tardes dibujando mientras comía arroz con leche.\n\n—Era terrible —dice—. Pero guardé todos los dibujos.\n\nEl taxi se detiene frente a un edificio moderno. No hay mansión, fuente ni camino privado. Solo una torre discreta y carísima.",
+      "imageAlt": "Emrys conversa con Eva dentro de un taxi autónomo detenido frente a una torre moderna.",
+      "choices": [
+        {"text": "Pedirle que te muestre los dibujos", "target": "p004"},
+        {"text": "Bromear con que esperabas una mansión", "target": "p004"}
+      ]
+    },
+    "p003": {
+      "id": "p003",
+      "title": "Antes del imperio",
+      "text": "Emrys tarda en responder. Antes de Wizard Tech, dice, dibujaba durante horas en el living de la casa de sus padres. Una mucama le preparaba arroz con leche. Lo cuenta con una mezcla rara de vergüenza y afecto.\n\n—¿Eras bueno?\n\n—Terrible.\n\n—Monet también pensaba que sus cuadros eran horribles.\n\n—¿En serio?\n\n—No. Lo dije para que te sintieras mejor.\n\nSe ríe con ganas. Cuando el taxi se detiene, ya cree que encontró a alguien frente a quien puede bajar la guardia.",
+      "imageAlt": "Eva hace reír a Emrys mientras el taxi llega a un edificio moderno.",
+      "choices": [
+        {"text": "Acompañarlo al penthouse", "target": "p004"}
+      ]
+    },
+    "p004": {
+      "id": "p004",
+      "title": "Castle comprometido",
+      "text": "El penthouse ocupa todo el último piso. Es enorme, minimalista y tan limpio que parece recién terminado. Emrys te muestra dibujos infantiles realmente malos. Los dos se divierten inventando qué representan.\n\nCuando reclamás el arroz con leche prometido, admite que no sabe prepararlo. La mucama lo hacía por él. Fingís pedir un delivery, pero el mensaje que enviás a Alex dice una sola palabra: «Listo».\n\nAlex llega disfrazado de repartidor. Señala discretamente uno de los dos tazones. Emrys prueba el primero y cae inconsciente en segundos.\n\nEstás guardando objetos de valor cuando su smartwatch emite un pitido. La pantalla dice: «EMERGENCIA. CASTLE COMPROMETIDO. MODO ERRADICACIÓN ACTIVADO». Debajo comienza una cuenta regresiva: 59:59.\n\nEl ascensor se abre al fondo. Una nube se disipa y deja ver a Alex muerto, con el rostro morado y el cuello hinchado.",
+      "image": "images/page-004.jpg",
+      "imageAlt": "Eva observa a Alex muerto en el ascensor mientras Emrys yace inconsciente junto a una mesa.",
+      "choices": [
+        {"text": "Acercarte al ascensor", "target": "p005"},
+        {"text": "Comprobar el estado de Emrys", "target": "p006"}
+      ]
+    },
+    "p005": {
+      "id": "p005",
+      "title": "El ascensor",
+      "text": "El aire junto al ascensor tiene un olor agrio. De la boca de Alex brota espuma. Todavía aprieta las llaves de la camioneta. Diez tubos metálicos sobresalen de las paredes de la cabina; restos de una pasta solidificada cubren sus bordes.\n\nLe quitás las llaves con dificultad. El tintineo enciende tres segmentos verdes en una columna de luces junto a la puerta. Cuando das un paso, se encienden dos más. El quinto ya es amarillo.\n\nUna cámara montada en el techo gira y te sigue. A la izquierda está el baño. A la derecha, una biblioteca larga.",
+      "image": "images/page-005.jpg",
+      "imageAlt": "Alex yace dentro del ascensor entre tubos de gas, un vúmetro luminoso y una cámara de seguridad.",
+      "choices": [
+        {"text": "Quedarte quieta y observar la cámara", "target": "p007"},
+        {"text": "Alejarte antes de que suban más luces", "target": "p010"}
+      ]
+    },
+    "p006": {
+      "id": "p006",
+      "title": "Cuatro horas",
+      "text": "Emrys respira. No reacciona a tu voz ni a una palmada en la mejilla. Según Alex, la burrodromapavina podría dormir a un caballo y lo mantendrá inconsciente unas cuatro horas. La cuenta regresiva de su reloj ya marca 56:42.\n\nDesde donde estás ves el ascensor abierto, la cocina y la biblioteca. La cámara del techo ajusta su ángulo para mantenerte en cuadro.",
+      "imageAlt": "Eva comprueba el pulso de Emrys mientras una cámara la observa desde el techo.",
+      "choices": [
+        {"text": "Revisar la cocina", "target": "p012"},
+        {"text": "Buscar una salida que no sea el ascensor", "target": "p017"}
+      ]
+    },
+    "p007": {
+      "id": "p007",
+      "title": "El gesto",
+      "text": "Cada ruido levanta el medidor. Si llega a la zona roja, no sabés qué hará Castle. Mirás directamente a la cámara y, por reflejo, llevás un dedo a los labios.\n\nSuena un «beep» de reconocimiento. Movés un pie. Las luces no reaccionan. Repetís el gesto: otro «beep» y el medidor vuelve a funcionar. Una tercera vez lo desactiva.\n\nNo descubriste un interruptor. Le enseñaste a la casa una orden.",
+      "imageAlt": "Eva hace un gesto de silencio hacia una cámara mientras el medidor de sonido se apaga.",
+      "choices": [
+        {"text": "Comprobar si la cámara entendió el gesto", "target": "p008"},
+        {"text": "No tentar al sistema y moverte con cuidado", "target": "p009"}
+      ]
+    },
+    "p008": {
+      "id": "p008",
+      "title": "Silencio aprendido",
+      "text": "La cámara confirma el gesto con un pitido breve. El vúmetro queda oscuro. Podés moverte y hablar sin que reaccione, aunque la lente continúa siguiéndote. Castle aceptó una orden que no deberías conocer.",
+      "imageAlt": "El medidor de sonido permanece apagado mientras la cámara sigue a Eva.",
+      "choices": [
+        {"text": "Usar el margen para revisar el baño", "target": "p010"},
+        {"text": "Usar el margen para revisar los libros", "target": "p017"}
+      ]
+    },
+    "p009": {
+      "id": "p009",
+      "title": "Diez segmentos",
+      "text": "Avanzás apoyando primero la punta de cada pie. Funciona hasta que una alarma lejana te sobresalta y golpeás una mesa. El vúmetro salta a ocho segmentos. Desde el techo llega un chasquido mecánico.\n\nTodavía no ocurrió nada, pero quedan dos luces.",
+      "imageAlt": "Un medidor alcanza ocho segmentos mientras Eva queda inmóvil en el penthouse.",
+      "choices": [
+        {"text": "Correr antes de que el sistema reaccione", "target": "final-ruido"},
+        {"text": "No producir ningún sonido más", "target": "p010"}
+      ]
+    },
+    "p010": {
+      "id": "p010",
+      "title": "El baño de revista",
+      "text": "El baño es un salón de mármol con jacuzzi, ducha escocesa y un espejo que ocupa una pared. No hay papel higiénico, cepillos ni envases. Solo un jarrón alto con flores y una tira de luz alrededor del espejo.\n\nRozás el jarrón. Parte del mármol se desliza y descubre un compartimento perfectamente organizado: desodorante, dentífrico y cepillo eléctrico, todos fabricados en acero inoxidable y sin marcas.",
+      "imageAlt": "Un baño minimalista de mármol revela un compartimento oculto con objetos de acero.",
+      "choices": [
+        {"text": "Acercarte al espejo", "target": "p011"},
+        {"text": "Llevarte los objetos sin probarlos", "target": "p011"}
+      ]
+    },
+    "p011": {
+      "id": "p011",
+      "title": "Diecinueve",
+      "text": "Un círculo azul aparece en el espejo y encuadra tu rostro. A un lado muestra tu pulso, temperatura y respiración. Debajo hay un número fijo: 19.\n\nPasás una mano cerca de la bacha. Un tubo surge y lanza agua hacia arriba. Está demasiado caliente; el espejo registra tu reacción y corrige la temperatura antes de que digas nada. Cuando retirás la mano, aire tibio y luz ultravioleta la secan.\n\nEl sistema no solo te ve. Interpreta lo que sentís.",
+      "image": "images/page-011.jpg",
+      "imageAlt": "El espejo inteligente encuadra el rostro de Eva y muestra sus constantes junto al número 19.",
+      "choices": [
+        {"text": "Buscar algo útil en la cocina", "target": "p012"},
+        {"text": "Evitar más pruebas y revisar la biblioteca", "target": "p017"}
+      ]
+    },
+    "p012": {
+      "id": "p012",
+      "title": "Ocho botellas",
+      "text": "La cocina tiene todo lo que tendría un chef y casi nada que Emrys parezca usar. En una cava encontrás ocho botellas cerradas con corcho. Desde allí ves de frente el ascensor y los diez tubos retraídos en sus paredes.\n\nLos restos químicos en los tubos y el color de Alex dejan pocas dudas: cuando la cabina se active, volverán a liberar gas. Los corchos tienen el diámetro adecuado.",
+      "imageAlt": "Eva sostiene ocho corchos en una cocina con vista directa al ascensor.",
+      "choices": [
+        {"text": "Probar los corchos en los tubos", "target": "p013"},
+        {"text": "Entrar al ascensor antes de que Castle cambie algo", "target": "final-gas"},
+        {"text": "Guardar la idea y buscar otra salida", "target": "p017"}
+      ]
+    },
+    "p013": {
+      "id": "p013",
+      "title": "Faltan dos",
+      "text": "Los ocho corchos entran con presión y sellan ocho tubos. Quedan dos abiertos. No encontrás más botellas.\n\nLa cabina espera con las puertas abiertas. Emrys sigue inconsciente a unos metros. Podrías cubrir los dos huecos restantes, pero tendrías que mantener algo dentro mientras el ascensor se mueve.",
+      "image": "images/page-013.jpg",
+      "imageAlt": "Ocho de diez tubos del ascensor están tapados con corchos y dos permanecen abiertos.",
+      "choices": [
+        {"text": "Completar el sello vos misma", "target": "p014"},
+        {"text": "No asumir vos el costo", "target": "p016"},
+        {"text": "Abandonar el ascensor por ahora", "target": "p017"}
+      ]
+    },
+    "p014": {
+      "id": "p014",
+      "title": "El precio del viaje",
+      "text": "Metés dos dedos de la mano izquierda en los tubos vacíos. El metal se ajusta alrededor de ellos. Apretás el botón de otro piso.\n\nDurante el descenso, los tubos intentan liberar gas. Sentís presión, frío y después nada. Al abrirse las puertas retirás la mano. Los dos dedos están grises y no responden.",
+      "imageAlt": "Eva retira del mecanismo del ascensor dos dedos dañados mientras se abre en otro piso.",
+      "choices": [
+        {"text": "Explorar el piso antes de regresar", "target": "p015"},
+        {"text": "Buscar el hueco del ascensor", "target": "final-hueco"}
+      ]
+    },
+    "p015": {
+      "id": "p015",
+      "title": "El piso correcto",
+      "text": "Es un piso de servicio. Las luces están apagadas y varias puertas permanecen bloqueadas. En un carro de mantenimiento encontrás dos tapones de corcho idénticos a los de arriba. Diez en total. Suficientes para viajar sin sacrificar nada la próxima vez.\n\nPero para esta mano ya es tarde. La alarma anuncia que quedan treinta y nueve minutos. Podés seguir intentando abrir puertas o regresar con la información.",
+      "imageAlt": "Un carro de mantenimiento contiene dos corchos mientras Eva examina su mano dañada.",
+      "choices": [
+        {"text": "Seguir explorando este piso", "target": "final-dos-corchos"},
+        {"text": "Volver al penthouse con los dos tapones", "target": "p017"}
+      ]
+    },
+    "p016": {
+      "id": "p016",
+      "title": "Dos dedos ajenos",
+      "text": "Arrastrás a Emrys hasta el ascensor. Podrías usar dos dedos suyos sin separarlos de la mano, pero el cuerpo tendría que viajar con vos y quedar expuesto al gas si el sello falla.\n\nAl acomodarlo notás una línea casi invisible alrededor de su muñeca, como una unión quirúrgica demasiado perfecta para ser reciente. No tenés tiempo de entenderla.",
+      "imageAlt": "Eva arrastra a Emrys hacia un ascensor cuyos tubos están casi completamente sellados.",
+      "choices": [
+        {"text": "Hacer el viaje con Emrys", "target": "final-dos-corchos"},
+        {"text": "Dejarlo y buscar una ruta dentro del penthouse", "target": "p017"}
+      ]
+    },
+    "p017": {
+      "id": "p017",
+      "title": "Curso de computación",
+      "text": "La biblioteca mezcla primeras ediciones con manuales técnicos. Una enciclopedia titulada «Curso de computación» parece de principios de los noventa. Todos sus tomos están hundidos unos centímetros. Debajo hay polvo, excepto bajo uno.\n\nLo empujás y hace tope. Al tirar, escuchás un clic.",
+      "imageAlt": "Una vieja enciclopedia de computación sobresale en una biblioteca moderna.",
+      "choices": [
+        {"text": "Tirar hasta completar el mecanismo", "target": "p018"},
+        {"text": "No entrar en un lugar que Castle podría estar mostrando a propósito", "target": "p012"}
+      ]
+    },
+    "p018": {
+      "id": "p018",
+      "title": "Cincuenta por treinta",
+      "text": "El fondo de la estantería se abre. Detrás queda un hueco de cincuenta centímetros por treinta. No ves el suelo del otro lado ni sabés qué habitación hay. La cuenta regresiva marca 49:03.\n\nEl hueco es estrecho, pero podés pasar. También podrías cerrar la estantería, esconderte en el baño y esperar que Castle crea que ya no sos una amenaza.",
+      "imageAlt": "Una abertura pequeña y oscura aparece detrás de los libros de la biblioteca.",
+      "choices": [
+        {"text": "Cruzar la abertura", "target": "p019"},
+        {"text": "Cerrar todo y dejar que termine la cuenta", "target": "final-refugio"}
+      ]
+    },
+    "p019": {
+      "id": "p019",
+      "title": "Nivel dos",
+      "text": "La madera cede cuando casi llegaste al otro lado. Caés con un golpe seco. Las luces se encienden. Estás en una habitación cuadrada: armas de fuego en ambas paredes y, al fondo, una puerta con lector de huella.\n\nUna alarma roja comienza a girar.\n\n—Modo erradicación nivel dos. Intruso detectado.\n\nDesde el penthouse llega un siseo. Los tubos del ascensor están liberando gas.",
+      "image": "images/page-019.jpg",
+      "imageAlt": "Eva cae dentro de una armería mientras se activa una alarma roja junto a una puerta biométrica.",
+      "choices": [
+        {"text": "Volver por Emrys antes de que lo alcance el gas", "target": "p020"},
+        {"text": "Prepararte para lo que Castle envíe", "target": "p035"}
+      ]
+    },
+    "p020": {
+      "id": "p020",
+      "title": "Diez centímetros",
+      "text": "Arrastrás a Emrys hasta la biblioteca. Su cuerpo no pasa por el hueco. Desde la armería tirás de su brazo hasta que el hombro queda trabado. La punta de sus dedos queda a diez centímetros del lector.\n\nProbás otra posición. No alcanza. El gas avanza detrás del cuerpo. A tu alrededor hay armas, herramientas de mantenimiento y una puerta que solo reconoce la huella de Emrys.",
+      "imageAlt": "La mano de Emrys queda a diez centímetros de un lector biométrico dentro de la armería.",
+      "choices": [
+        {"text": "Hacer lo necesario antes de que llegue el gas", "target": "p021"},
+        {"text": "Soltarlo; tiene que existir otra manera", "target": "p022"}
+      ]
+    },
+    "p021": {
+      "id": "p021",
+      "title": "Acceso concedido",
+      "text": "Elegís un filo pesado. Un solo golpe no alcanza. El segundo separa la mano.\n\nLa apoyás contra el lector. Sangre caliente cubre los tornillos inferiores del panel. La luz cambia a verde: «ACCESS GRANTED».\n\nRecién entonces mirás los tornillos y las herramientas de mantenimiento. El panel estaba montado sobre una caja externa. Podrías haberlo acercado a la mano. No sabés si la culpa que sentís es por Emrys o por haber elegido una solución peor.",
+      "image": "images/page-021.jpg",
+      "imageAlt": "Eva sostiene la mano separada de Emrys ante un lector verde mientras la sangre cubre los tornillos del panel.",
+      "choices": [
+        {"text": "Entrar antes de que el gas llegue", "target": "p023"}
+      ]
+    },
+    "p022": {
+      "id": "p022",
+      "title": "El panel",
+      "text": "Dejás la mano donde está y revisás la fijación del lector. Entre las herramientas hay un destornillador corto. Los cuatro tornillos ceden. Detrás del panel hay cable suficiente.\n\nLo separás de la pared, lo acercás esos diez centímetros y apoyás el dedo de Emrys. La luz se vuelve verde.\n\nEl gas ya rodea sus piernas, pero la mano sigue unida al cuerpo.",
+      "imageAlt": "Eva acerca un lector biométrico desmontado hasta el dedo de Emrys.",
+      "choices": [
+        {"text": "Cruzar la puerta y cerrar detrás de vos", "target": "p023"}
+      ]
+    },
+    "p023": {
+      "id": "p023",
+      "title": "El corazón de Castle",
+      "text": "La puerta conduce a una sala fría y presurizada. Racks de servidores ocupan el centro. Dos paredes están cubiertas de cables; la tercera sostiene una pantalla enorme.\n\nLa imagen de un Emrys de veintipico aparece en ella. Sonríe.\n\n—Hola, Emrys. Tu identificación fue correcta. ¿Qué deseás hoy?\n\nLa estantería intenta cerrarse detrás de vos. El brazo del Emrys inconsciente la traba y una línea de gas agrio empieza a entrar.",
+      "image": "images/page-023.jpg",
+      "imageAlt": "Un mainframe lleno de racks muestra en una pantalla el rostro digital de un Emrys joven.",
+      "choices": [
+        {"text": "Hablar como si fueras Emrys", "target": "p024"},
+        {"text": "Buscar algo que no dependa de convencer a la IA", "target": "p025"}
+      ]
+    },
+    "p024": {
+      "id": "p024",
+      "title": "Sin anulación manual",
+      "text": "Pedís detener el protocolo. La expresión del rostro cambia.\n\n—Sabés que no existe una anulación manual una vez iniciado el nivel dos, Emrys. Esperá aquí. El gas y los robots arácnidos eliminarán a los intrusos. Después se ejecutará Flash y el edificio se abrirá para la policía.\n\nPreguntás qué es Flash. Castle explica que identificará rostros, huellas y química corporal en todo el edificio. Cualquiera que no sea Emrys recibirá una descarga de alta tensión y amperaje.\n\n—Tu tratamiento evita que desprendas olor —añade—. No tenés nada que temer.",
+      "imageAlt": "El rostro digital de Castle explica el protocolo mientras gas entra lentamente al mainframe.",
+      "choices": [
+        {"text": "Pedir una prueba de identificación", "target": "p027"},
+        {"text": "Revisar físicamente la sala", "target": "p025"}
+      ]
+    },
+    "p025": {
+      "id": "p025",
+      "title": "Tres memorias",
+      "text": "En una bandeja encontrás tres memorias USB etiquetadas a mano: «MY TRANSPLANT», «SOURCE CODE» y «FLASH PROTOCOL TEST». Uno de los racks tiene un puerto libre.\n\nEl gas todavía no alcanza esta sala si conseguís que la estantería termine de cerrarse. La cuenta regresiva marca 43:11.",
+      "imageAlt": "Tres memorias USB etiquetadas descansan junto a un rack de servidores.",
+      "choices": [
+        {"text": "Ver MY TRANSPLANT", "target": "p026"},
+        {"text": "Ejecutar FLASH PROTOCOL TEST", "target": "p027"},
+        {"text": "Abrir SOURCE CODE", "target": "p036"}
+      ]
+    },
+    "p026": {
+      "id": "p026",
+      "title": "El video doméstico",
+      "text": "La pantalla muestra una filmación de los años setenta. Un matrimonio rico observa a un niño que dibuja mientras come arroz con leche. Cuando la cámara se acerca, ves su rostro severamente deformado.\n\nEn otra escena vuelve de la escuela con el uniforme roto. Llora en un rincón. Una mucama, siempre de espaldas, lo abraza y le limpia la cara.\n\nDespués llega una cirugía filmada sin delicadeza: retiran un rostro y lo colocan sobre el suyo. Años más tarde, el adolescente ya recuperado es coronado en un baile junto a una chica.\n\nCastle llama al archivo «tu historia de superación» y explica que el trasplante inspiró los sistemas de reconocimiento de Wizard Tech. También causó un olor corporal que Emrys controla con un tratamiento privado.",
+      "image": "images/page-026.jpg",
+      "imageAlt": "Eva observa un viejo video donde una mucama de espaldas consuela a un niño deformado.",
+      "choices": [
+        {"text": "Usar lo que acabás de aprender", "target": "p027"},
+        {"text": "Preguntar quién era la mucama", "target": "p027"}
+      ]
+    },
+    "p027": {
+      "id": "p027",
+      "title": "Tres fracasos",
+      "text": "El test despliega láseres y sensores. Te pide una huella. Usás la mano de Emrys —separada o todavía unida al brazo— y la pantalla marca «PASS».\n\nEl sensor químico titila: «FAIL».\n\nEl reconocimiento facial te recorre: «FAIL».\n\nNecesitás reproducir tres aspectos de una persona. Ya tenés uno. Castle mencionó que el tratamiento se realiza en el baño. En la sala también hay un proyector pequeño entre los cables.",
+      "imageAlt": "Una pantalla biométrica muestra huella aprobada, olor fallido y rostro fallido.",
+      "choices": [
+        {"text": "Resolver primero la huella química", "target": "p028"},
+        {"text": "Intentar dominar el sistema directamente", "target": "p036"}
+      ]
+    },
+    "p028": {
+      "id": "p028",
+      "title": "Sin olor",
+      "text": "Abrís la estantería y cruzás el gas hasta el baño. El espejo reconoce cada objeto: el desodorante elimina el olor corporal, el dentífrico neutraliza la química de la boca y el cepillo completa el tratamiento.\n\nAplicarte desodorante dentro de la boca sería más rápido, pero recordás los otros dos objetos del compartimento. Usás cada uno para lo que fue diseñado. El gas te hace lagrimear mientras regresás.\n\nEn el nuevo test, la huella pasa. Los sensores químicos continúan verdes incluso cuando exhalás. Falta el rostro.",
+      "imageAlt": "Eva usa el tratamiento personalizado de Emrys frente al espejo inteligente del baño.",
+      "choices": [
+        {"text": "Trabajar con la imagen disponible", "target": "p029"},
+        {"text": "Forzar el acceso antes de quedarte sin tiempo", "target": "p036"}
+      ]
+    },
+    "p029": {
+      "id": "p029",
+      "title": "El rostro prestado",
+      "text": "Reproducís el video del trasplante y lo detenés en un primer plano de Emrys. Alineás el proyector con tu cara. En el reflejo oscuro de la pantalla, sus facciones reemplazan las tuyas con una precisión suficiente.\n\nIniciás el test.\n\nHuella: PASS.\nQuímica: PASS.\nRostro: la pantalla queda esperando durante varios segundos.\n\nFinalmente cambia a verde. «BIENVENIDO, EMRYS».",
+      "image": "images/page-029.jpg",
+      "imageAlt": "Eva proyecta el rostro de Emrys sobre el suyo mientras láseres biométricos la analizan.",
+      "choices": [
+        {"text": "Solicitar acceso total", "target": "p030"}
+      ]
+    },
+    "p030": {
+      "id": "p030",
+      "title": "Acceso total",
+      "text": "Castle no puede detener la erradicación, pero acepta darte acceso total. Una puerta sin juntas visibles se abre junto a la pantalla. Del otro lado no hay luz.\n\nTambién podés quedarte en el mainframe. Castle insiste en que esta sala sobrevivirá al gas, a los robots y a Flash. Cuando el edificio se abra, la policía encontrará a una mujer viva rodeada de cadáveres y con objetos robados en su bolso.",
+      "imageAlt": "Una puerta secreta se abre hacia una habitación completamente oscura junto al mainframe.",
+      "choices": [
+        {"text": "Entrar en la habitación que Castle ocultaba", "target": "p031"},
+        {"text": "Aceptar la protección y esperar", "target": "final-refugio"}
+      ]
+    },
+    "p031": {
+      "id": "p031",
+      "title": "Respiraciones",
+      "text": "Entrás con una mano extendida. Tocás piel tibia: una clavícula, después un rostro. No hay respuesta. En la oscuridad escuchás muchas respiraciones lentas y sincronizadas.\n\nRetrocedés y chocás contra una consola. Tus dedos encuentran varias llaves físicas. Una de ellas debería encender la luz. Otra podría activar algo que todavía no entendés.",
+      "imageAlt": "Eva avanza a oscuras entre figuras humanas inmóviles dentro de un laboratorio.",
+      "choices": [
+        {"text": "Encender la luz", "target": "p032"},
+        {"text": "Escuchar un poco más antes de tocar nada", "target": "p032"}
+      ]
+    },
+    "p032": {
+      "id": "p032",
+      "title": "Tu rostro",
+      "text": "La sala se ilumina con luz blanca. Es un laboratorio. Filas de mujeres permanecen inmóviles contra las paredes, sostenidas por módulos médicos. Todas tienen tu cuerpo. Todas tienen tu rostro.\n\nEl espejo del baño no mostraba tu edad ni un nivel de amenaza. Mostraba un número de serie.\n\nDiecinueve.\n\nUna de las copias mueve apenas los ojos, como si hubiera escuchado tu respiración.",
+      "image": "images/page-032.jpg",
+      "imageAlt": "Eva descubre filas de cuerpos artificiales con su mismo rostro dentro de un laboratorio blanco.",
+      "choices": [
+        {"text": "Intentar despertar a la copia", "target": "p033"},
+        {"text": "Buscar en la consola quién las controla", "target": "p033"}
+      ]
+    },
+    "p033": {
+      "id": "p033",
+      "title": "Emrys",
+      "text": "Las alarmas se callan. La iluminación del laboratorio se estabiliza y una puerta se abre.\n\nEmrys entra sin un rasguño. Si le cortaste la mano, tiene las dos. Si la dejaste unida, el cuerpo que arrastraste continúa afuera. En cualquier caso, el hombre frente a vos acomoda el puño de su camisa como si recién llegara de la oficina.\n\n—Felicitaciones —dice—. Otra vez vulneraste Castle.\n\nTus músculos se tensan sin que los controles. Las rodillas dejan de responder.",
+      "imageAlt": "Emrys aparece intacto ante Eva paralizada dentro del laboratorio de copias.",
+      "choices": [
+        {"text": "Exigir saber qué sos", "target": "p034"},
+        {"text": "Guardar silencio y escuchar", "target": "p034"}
+      ]
+    },
+    "p034": {
+      "id": "p034",
+      "title": "La próxima vez",
+      "text": "Emrys habla a una grabadora.\n\n—Iteración 19 vulnera el sensor acústico mediante aprendizaje gestual. Detecta la puerta de biblioteca. Engaña la identificación química y facial. Corregir antes de la siguiente ejecución.\n\nTe mira. La expresión es afectuosa, casi agradecida.\n\n—Vamos a correr la Iteración 20 desde el bar mañana a la noche.\n\nSe inclina y te besa la mejilla. Si te cortaste intentando copiar su rostro, la herida todavía sangra.\n\n—Ya no te voy a necesitar.\n\nLa luz se apaga. Tu cuerpo también. Lo último que conservás no es una imagen, sino una pregunta: por qué, esta vez, seguís recordando.",
+      "image": "images/final-iteracion.jpg",
+      "imageAlt": "Emrys registra los resultados de la Iteración 19 mientras Eva queda paralizada.",
+      "isEnding": true,
+      "endingId": "iteracion-19",
+      "endingTitle": "Iteración 19",
+      "choices": []
+    },
+    "p035": {
+      "id": "p035",
+      "title": "La armería",
+      "text": "Elegís un arma corta y comprobás el cargador. Castle anuncia que ha desplegado unidades de erradicación. Del otro lado de la estantería escuchás patas metálicas sobre el mármol.\n\nPodés defender la abertura estrecha o usar los segundos que quedan para intentar abrir la puerta biométrica.",
+      "imageAlt": "Eva sostiene un arma frente a la pequeña abertura mientras se aproximan robots arácnidos.",
+      "choices": [
+        {"text": "Mantener la posición", "target": "final-aracnidos"},
+        {"text": "Usar a Emrys para abrir la puerta", "target": "p020"}
+      ]
+    },
+    "p036": {
+      "id": "p036",
+      "title": "Código fuente",
+      "text": "La pantalla se llena de código que no entendés. Seguís cables entre racks, pero la maraña se divide en cientos de conexiones idénticas. Cortar uno podría apagar Castle, liberar el gas o cerrar la única puerta segura.\n\nLa cuenta regresiva continúa. Tenés una herramienta en la mano y ninguna forma confiable de saber qué controla.",
+      "imageAlt": "Eva enfrenta una pared de código y una maraña de cables en el mainframe.",
+      "choices": [
+        {"text": "Interrumpir el sistema a ciegas", "target": "final-flash"},
+        {"text": "Volver a las pruebas que sí podés comprender", "target": "p025"}
+      ]
+    },
+    "final-ruido": {
+      "id": "final-ruido",
+      "title": "La casa escucha",
+      "text": "El décimo segmento se enciende. Los tubos del ascensor liberan otra nube antes de que llegues a la cocina. Intentás contener la respiración, pero el gas actúa en segundos.\n\nMientras caés, la cámara emite un «beep» y registra tu última reacción. En alguna parte, Castle acaba de aprender algo nuevo sobre vos.",
+      "imageAlt": "El medidor llega al máximo mientras una nube invade el penthouse.",
+      "isEnding": true,
+      "endingId": "ruido",
+      "endingTitle": "La casa escucha",
+      "choices": []
+    },
+    "final-gas": {
+      "id": "final-gas",
+      "title": "Planta baja",
+      "text": "Las puertas se cierran. Antes de que el ascensor empiece a bajar, los diez tubos salen de la pared. El gas agrio llena la cabina. Golpeás los botones, pero Castle ya bloqueó los controles.\n\nEl indicador desciende piso por piso. No llegás a ver la planta baja.",
+      "imageAlt": "Los tubos del ascensor liberan gas alrededor de Eva mientras el indicador desciende.",
+      "isEnding": true,
+      "endingId": "gas",
+      "endingTitle": "Planta baja",
+      "choices": []
+    },
+    "final-refugio": {
+      "id": "final-refugio",
+      "title": "La única sobreviviente",
+      "text": "Esperás. El gas no entra. Los robots pasan de largo. Cuando la cuenta llega a cero, las luces se apagan durante diez segundos y una descarga recorre el edificio.\n\nDespués se abren todas las puertas. La policía encuentra veintiséis muertos, un magnate mutilado o inconsciente y a vos escondida con las llaves de la camioneta y objetos de valor.\n\nSobrevivís a Castle. Ahora tenés que explicar por qué estabas ahí.",
+      "imageAlt": "Policías encuentran a Eva dentro del penthouse cuando termina el protocolo.",
+      "isEnding": true,
+      "endingId": "refugio",
+      "endingTitle": "La única sobreviviente",
+      "choices": []
+    },
+    "final-flash": {
+      "id": "final-flash",
+      "title": "Diez segundos",
+      "text": "El sistema se reinicia, pero no como esperabas. Castle pierde la conversación y conserva la función más básica: proteger a Emrys.\n\nLa cuenta llega a cero. Durante diez segundos, láseres invisibles recorren el edificio. Tu rostro falla. Tu olor falla. La descarga te alcanza antes de que puedas soltar la herramienta.\n\nCuando las puertas se abren, Castle informa a la policía que el propietario está a salvo.",
+      "imageAlt": "Una descarga blanca recorre el mainframe durante el protocolo Flash.",
+      "isEnding": true,
+      "endingId": "flash",
+      "endingTitle": "Diez segundos",
+      "choices": []
+    },
+    "final-aracnidos": {
+      "id": "final-aracnidos",
+      "title": "Munición",
+      "text": "El primer robot entra por la abertura y lo destruís de dos disparos. El segundo usa al primero como cobertura. El tercero espera a que cambies el cargador.\n\nCastle no improvisa: prueba, mide y corrige. Cuando se termina la munición todavía quedan patas metálicas moviéndose del otro lado. Comprendés demasiado tarde que la armería también formaba parte del experimento.",
+      "imageAlt": "Robots arácnidos avanzan hacia Eva entre restos metálicos dentro de la armería.",
+      "isEnding": true,
+      "endingId": "aracnidos",
+      "endingTitle": "Munición",
+      "choices": []
+    },
+    "final-hueco": {
+      "id": "final-hueco",
+      "title": "Fuera de alcance",
+      "text": "Forzás la puerta de mantenimiento y descendés al hueco. Una pieza se suelta bajo tu peso. La caída termina varios pisos más abajo, sobre una plataforma de emergencia que Castle no puede mover.\n\nQuedás herida, sin fuerza para trepar y fuera del alcance de los robots. La cuenta llega a cero, pero nadie revisa este lugar. Tu cuerpo no puede recuperarse.\n\nEn otra iteración, alguien podría encontrarte todavía viva.",
+      "imageAlt": "Eva queda herida sobre una plataforma oscura dentro del hueco del ascensor.",
+      "isEnding": true,
+      "endingId": "hueco",
+      "endingTitle": "Fuera de alcance",
+      "choices": []
+    },
+    "final-dos-corchos": {
+      "id": "final-dos-corchos",
+      "title": "Dos corchos más",
+      "text": "Explorás hasta que Castle bloquea el ascensor en otro piso. No conseguís escapar antes de Flash.\n\nSin embargo, aprendés algo que cambia el próximo intento: existen dos tapones adicionales en el carro de mantenimiento. Los diez tubos pueden cerrarse sin mutilar a nadie.\n\nCuando la descarga te alcanza, te aferrás a ese dato absurdo y preciso. Si hay otra iteración, no deberías recordarlo. Pero lo recordás.",
+      "imageAlt": "Dos corchos descansan en la mano de Eva mientras la cuenta regresiva llega a cero.",
+      "isEnding": true,
+      "endingId": "dos-corchos",
+      "endingTitle": "Dos corchos más",
+      "choices": []
+    }
+  }
+}
